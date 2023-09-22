@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "jiomeet-rtc-engine-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JioMeet/JioMeet-rtc-engine-ios.git",
+      "state" : {
+        "revision" : "352d96722986c14d7bdc0df808db621279d0acbd",
+        "version" : "3.7.2"
+      }
+    },
+    {
+      "identity" : "jiomeet-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JioMeet/JioMeet-SDK-iOS.git",
+      "state" : {
+        "revision" : "69d2d6aefa7e197afd49dbf9d103f79814959dd0",
+        "version" : "1.1.16"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "revision" : "3094834a82a75dae679fbe593f08bf1b168c2afe",
+        "version" : "4.3.1"
+      }
+    }
+  ],
+  "version" : 2
+}
