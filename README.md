@@ -15,13 +15,15 @@
 6. [Integration Steps](#integration-steps)
    - [Add SDK](#add-sdk)
    - [Import SDK](#import-sdk)
-   - [Integrate Meeting View](#integrate-meeting-view)
-7. [Join Meeting](#join-meeting)
-   - [Create Meeting Data](#create-meeting-data)
-   - [Create Meeting Configuration](#create-meeting-configuration)
-   - [Join Meeting with data and config](#join-meeting-with-data-and-config)
-   - [Implement JMMeetingViewDelegate methods](#implement-jmmeetingviewdelegate-methods)
-8. [Run Project](#run-project)
+7. [Start WatchParty](#start-watchparty)
+   - [Create WatchParty View Model](#create-watchparty-view-model)
+   - [Add WatchParty View](#add-watchparty-view)
+8. [Public Methods](#public-methods)
+   - [Get Current WatchParty Meeting ID](#get-current-watchparty-meeting-id)
+   - [Force Exit Current WatchParty](#force-exit-watchparty)
+   - [Check if User is in WatchParty or Not](#check-user-in-watchparty)
+   - [Set User Type](#set-user-type)
+   - [Set Meeting Data](#set-meeting-data)
 9. [Reference Classes](#reference-classes)
 10. [Troubleshooting](#troubleshooting)
 
@@ -88,151 +90,128 @@ Please enable `Background Modes` in your project `Signing & Capibilities` tab. A
 
 ### Add SDK
 
-Please add below pod to your Podfile and run command `pod install --repo-update`.
+Please add WatchParty SDK as a dependency via Swift Package Manager. Use below git url.
 
-```ruby
-pod 'JioMeetUIKit_iOS', '~> 2.0'
-```
+https://github.com/JioMeet/JioMeetCoreSDK_iOS
 
 ### Import SDK
 
 Please use below import statements
 
 ```swift
-import JioMeetUIKit
 import JioMeetCoreSDK
+import JioMeetWatchParty
 ```
 
-### Integrate Meeting View
+## Start WatchParty
 
+### Create WatchParty View Model
 
-Create instance of `JMMeetingView`. 
+First create an instance of JVWatchPartyViewModel . Make sure it should not go out of scope once UI is rerendered on state change. You can use a Singleton class and create a variable of JVWatchPartyViewModel type.
+You need to assign some initial values by JVWatchPartyViewModel instance like user type (guest or logged in user), meeting ID, meeting pin and party owner name.
 
-```swift
-private var meetingView = JMMeetingView()
-```
+### Set User Type
+Use setUserType method of JVWatchPartyViewModel .
 
-Add it to your viewController view. 
+### Set Meeting Data
+Use setMeetingData method of JVWatchPartyViewModel .
 
-```swift
-meetingView.translatesAutoresizingMaskIntoConstraints = false
-view.addSubview(meetingView)
-
-NSLayoutConstraint.activate([
-    meetingView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-    meetingView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-    meetingView.topAnchor.constraint(equalTo: view.topAnchor),
-    meetingView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-])
-```
-
-## Join Meeting
-
-### Create Meeting Data
-
-First create `JMJoinMeetingData` type object. Following are the properties of this object.
-
-| Property Name | Type  | Description  |
-| ------- | --- | --- |
-| meetingId | String | Meeting ID of the meeting user is going to join. |
-| meetingPin | String | Meeting PIN of the meeting user is going to join. |
-| displayName | String | Display Name with which user is going to join the meeting. |
+Please take below reference.
 
 ```swift
-let joinMeetingData = JMJoinMeetingData(
-    meetingId: "9680763133",
-    meetingPin: "1tKzt",
-    displayName: "John Appleased"
-)
-```
+class PartyManager: NSObject {
 
-### Create Meeting Configuration
+   static let instance = PartyManager()
+   let viewModel = JVWatchPartyViewModel()
 
-Create a `JMJoinMeetingConfig` type object. Following are the properties of this object.
+   override init() { 
+      super.init()
+      let isUserLoggedIn = UserDefaults.standard.value(forKey: "isUserLoggedIN") as? Bool ?? false
+      if isUserLoggedIn {
+         viewModel.setUserType(type: .loggedIn(userName: "John"))
+      } else {
+         viewModel.setUserType(type: .guest)
+      }
+   }
 
-| Property Name | Type  | Description  |
-| ------- | --- | --- |
-| userRole | JMUserRole | Role of the user in the meeting. Possible values are `.host`, `.speaker`, `.audience`. If you are assigning `.host` value, please pass the token in its argument. |
-| isInitialAudioOn | Bool | Initial Audio State of the user when user joins the meeting. If meeting is hard muted by a host, initial audio state will be muted and this setting will not take place. |
-| isInitialVideoOn | Bool | Initial Video State of the user when user joins the meeting. |
+   func setMeetingData(meetingID: String, meetingPIN: String, ownerName: String) {
+      viewModel.setMeetingData(
+            meetingID: meetingID,
+            meetingPIN: meetingPIN,
+            ownerName: ownerName
+      )
+   }
 
-```swift
-let joinMeetingConfig = JMJoinMeetingConfig(
-    userRole: .host(hostToken: "MD5hQxGAwjW2"),
-    isInitialAudioOn: false,
-    isInitialVideoOn: false
-)
-```
-
-### Join Meeting with data and config
-
-After creating `JMJoinMeetingData` and `JMJoinMeetingConfig` objects, call `joinMeeting` method of `JMClient` instance.
-
-Following are the arguments of `joinMeeting` method.
-
-| Argument Name | Type  | Description  |
-| ------- | --- | --- |
-| meetingData | JMJoinMeetingData | Meeting Data which include meeting id, pin and user display name. |
-| config | JMJoinMeetingConfig | Meeting Configuration which include user role, mic and camera initial states. |
-| delegate | JMClientDelegate? | A class conforming to `JMClientDelegate` protocol.  |
-
-
-```swift
-meetingView.joinMeeting(
-    meetingData: joinMeetingData,
-    config: joinMeetingConfig,
-    delegate: self
-)
-```
-
-**Note: Host Token can be nil.**
-
-### Implement JMMeetingViewDelegate methods
-
-Confirm your class with `JMMeetingViewDelegate` protocol and implement its methods
-
-```swift
-
-// Local User has left the meeting
-func didLocalUserExitsMeetingView() {
-    navigationController?.popViewController(animated: true)
-}
-
-// Local User failed to joined the meeting. Please use errorMessage to show any error.
-func didLocalUserFailedToJoinMeeting(errorMessage: String) {
-    showMeetingJoinError(message: errorMessage)
-}
-
-// UI SDK has requested to share meeting. Use meetingID and meetingPin to show any UI you want. For e.g. `UIActivityViewController`
-func didRequestToShareMeetingView(meetingID: String, meetingPin: String) {
-    showMeetingShareView(meetingID: meetingID, meetingPin: meetingPin)
-}
-
-// UI SDK has requested to create meeting share Link.
-func didRequestToBuildMeetingShareLink(meetingID: String, meetingPin: String, completion: @escaping ((String) -> Void)) {
-    var components = URLComponents()
-    components.scheme = "https"
-    components.host = "jiomeetpro.jio.com"
-    components.path = "/shortener"
-    components.queryItems = [
-        URLQueryItem(name: "meetingId", value: meetingID),
-        URLQueryItem(name: "pwd", value: meetingPin)
-    ]
-    
-    guard let urlString = components.string else { return }
-    completion(urlString)
 }
 ```
 
-## Run Project
+## Add WatchParty View
 
-Run `pod install --repo-update` command. Open JioMeetCoreUIDemo.xcworkspace file.
+Please add SDK WatchParty View in your screen. Take reference below.
 
+```swift
+
+JVWatchPartyView {
+
+// SDK Request JWT Token from Parent App to create WatchParty
+// Once Token is recieved, publish a notification via notification center
+// Notification Name is: JVWatchPartyNotificationName.jwtTokenToCreateParty.rawValue
+// Notification Payload is: ["jwtToken": JWT_TOKEN_FROM_PARENT_APP]
+
+   NotificationCenter.default.post( name:
+            NSNotification.Name.init(JVWatchPartyNotificationName.jwtTokenToCreateParty.rawValue),
+            object: nil,
+            userInfo: ["jwtToken": token]
+    )
+
+} onPressTermsAndConditionLink: { (url) in
+   // SDK Request Parent App to open Terms and Condition URL
+   // Use url value to open the URL in WebView or Device Browser guard let strongURL = url else { return }
+   openURL(strongURL)
+} onRequestToShareInvite: { (meetingID, meetingPin, ownerName) in // SDK Request Parent App to Show Invite View
+   // SDK Will sent you meetingID, meetingPin and Party owner name. // You can use this data according to your requirement
+} onRequiredToChangeMediaPlayerVolume: { newLevel in
+   // SDK Request Parent App to Change Media Player Volume. // Use newLevel value to set the player volume. player.volume = newLevel
+} onRequestForUserLogin: {
+   // SDK force Parent App to ask user to login to continue to watchparty
+   // Once Login process is done by parent app
+   // Call setUserType method of WatchParty view model you created earlier PartyManager.instance.viewModel.setUserType(type: .loggedIn(userName: "John"))
+} onRequestToSendAnalyticsEvent: { (event) in
+   // SDK Sent Analytic data to Parent App.
+   // Parent app needs to process this according to requirement
+   // Use eventData property of event. It is a [Strin: Any] dictionary print(event.eventData)
+}.environmentObject(PartyManager.instance.viewModel) // Set View Model you created earlier as environmentObject
+
+```
+
+## Public Methods
+
+   All below methods can be called via instance of JVWatchPartyViewModel .
+
+### Get Current WatchParty Meeting ID
+
+   public func getCurrentPartyID() -> String
+
+### Force Exit Current WatchParty
+
+   public func forceLeaveCurrentWatchParty(completion: ((_ isPartyLeft: Bool) -> Void)? = nil)
+
+### Check if User is in WatchParty or Not
+
+   public func isUserAlreadyInParty() -> Bool
+
+### Set User Type
+
+   public func setUserType(type: JVPartyUserType)
+
+### Set Meeting Data
+
+   public func setMeetingData(meetingID: String, meetingPIN: String, ownerName: String)
 
 ## Reference Classes
 
-Please check `MeetingScreenViewController` class for integration reference.
+   Please check `PartyView` class for integration reference.
 
 ## Troubleshooting
 
-Facing any issues while integrating or installing the JioMeet Template UI Kit please connect with us via real time support present in jiomeet.support@jio.com or https://jiomeetpro.jio.com/contact-us
+Facing any issues while integrating or installing the JioMeet JCWatchParty Template Kit please connect with us via real time support present in jiomeet.support@jio.com or https://jiomeetpro.jio.com/contact-us
