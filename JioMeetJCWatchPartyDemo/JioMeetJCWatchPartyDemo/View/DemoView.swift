@@ -159,39 +159,4 @@ struct DemoView_Previews: PreviewProvider {
 }
 
 
-struct ResultView: View {
-	var choice: String
-	
-	var body: some View {
-		Text("You chose \(choice)")
-	}
-}
 
-
-
-class PartyManager: NSObject {
-	static let instance = PartyManager()
-	let viewModel = JVWatchPartyViewModel()
-	
-	override init() {
-		super.init()
-		let isUserLoggedIn = UserDefaults.standard.value(forKey: "isUserLoggedIN") as? Bool ?? false
-		if isUserLoggedIn {
-			viewModel.setUserType(type: .loggedIn(userName: "John"))
-		} else {
-			viewModel.setUserType(type: .guest)
-		}
-		// viewModel.setUserType(isGuestUser: !isUserLoggedIn)
-		NotificationCenter.default.addObserver(self, selector: #selector(handleInterruptNotification(notification:)), name: AVAudioSession.interruptionNotification, object: AVAudioSession.sharedInstance())
-	}
-	
-	@objc private func handleInterruptNotification(notification: NSNotification) {
-		
-	}
-	
-	func setMeetingData(meetingID: String, meetingPIN: String, ownerName: String) {
-		viewModel.setMeetingData(meetingID: meetingID, meetingPIN: meetingPIN, ownerName: ownerName)
-	}
-	
-	
-}
