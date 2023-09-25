@@ -18,8 +18,14 @@
 7. [Start WatchParty](#start-watchparty)
    - [Create WatchParty View Model](#create-watchparty-view-model)
    - [Add WatchParty View](#add-watchparty-view)
-8. [Reference Classes](#reference-classes)
-9. [Troubleshooting](#troubleshooting)
+8. [Public Methods](#public-methods)
+   - [Get Current WatchParty Meeting ID](#get-current-watchparty-meeting-id)
+   - [Force Exit Current WatchParty](#force-exit-watchparty)
+   - [Check if User is in WatchParty or Not](#check-user-in-watchparty)
+   - [Set User Type](#set-user-type)
+   - [Set Meeting Data](#set-meeting-data)
+9. [Reference Classes](#reference-classes)
+10. [Troubleshooting](#troubleshooting)
 
 ## Introduction
 
@@ -180,32 +186,31 @@ JVWatchPartyView {
 
 ## Public Methods
 
-All below methods can be called via instance of JVWatchPartyViewModel .
+   All below methods can be called via instance of JVWatchPartyViewModel .
 
 ### Get Current WatchParty Meeting ID
 
-public func getCurrentPartyID() -> String
+   public func getCurrentPartyID() -> String
 
 ### Force Exit Current WatchParty
 
-public func forceLeaveCurrentWatchParty(completion: ((_ isPartyLeft: Bool) -> Void)? = nil)
+   public func forceLeaveCurrentWatchParty(completion: ((_ isPartyLeft: Bool) -> Void)? = nil)
 
 ### Check if User is in WatchParty or Not
 
-public func isUserAlreadyInParty() -> Bool
+   public func isUserAlreadyInParty() -> Bool
 
 ### Set User Type
 
-public func setUserType(type: JVPartyUserType)
+   public func setUserType(type: JVPartyUserType)
 
 ### Set Meeting Data
 
-public func setMeetingData(meetingID: String, meetingPIN: String, ownerName: String)
-
+   public func setMeetingData(meetingID: String, meetingPIN: String, ownerName: String)
 
 ## Reference Classes
 
-Please check `PartyView` class for integration reference.
+   Please check `PartyView` class for integration reference.
 
 ## Troubleshooting
 
