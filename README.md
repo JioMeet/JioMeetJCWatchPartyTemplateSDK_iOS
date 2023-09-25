@@ -15,10 +15,9 @@
 6. [Integration Steps](#integration-steps)
    - [Add SDK](#add-sdk)
    - [Import SDK](#import-sdk)
-7. [Start WatchParty](#join-meeting)
-   - [Create WatchParty View Model](#create-meeting-data)
-   - [Set User Type](#create-meeting-configuration)
-   - [Set Meeting Data](#join-meeting-with-data-and-config)
+7. [Start WatchParty](#start-watchparty)
+   - [Create WatchParty View Model](#create-watchparty-view-model)
+   - [Add WatchParty View](#add-watchparty-view)
 8. [Reference Classes](#reference-classes)
 9. [Troubleshooting](#troubleshooting)
 
