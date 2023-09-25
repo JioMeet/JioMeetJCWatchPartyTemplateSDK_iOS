@@ -88,63 +88,59 @@ Please enable `Background Modes` in your project `Signing & Capibilities` tab. A
 
 ### Add SDK
 
-Please add below pod to your Podfile and run command `pod install --repo-update`.
+Please add WatchParty SDK as a dependency via Swift Package Manager. Use below git url.
 
-```ruby
-pod 'JioMeetUIKit_iOS', '~> 2.0'
-```
+https://github.com/JioMeet/JioMeetCoreSDK_iOS
 
 ### Import SDK
 
 Please use below import statements
 
 ```swift
-import JioMeetUIKit
 import JioMeetCoreSDK
+import JioMeetWatchParty
 ```
 
-### Integrate Meeting View
+## Create WatchParty View Model
 
+First create an instance of JVWatchPartyViewModel . Make sure it should not go out of scope once UI is rerendered on state change. You can use a Singleton class and create a variable of JVWatchPartyViewModel type.
+You need to assign some initial values by JVWatchPartyViewModel instance like user type (guest or logged in user), meeting ID, meeting pin and party owner name.
 
-Create instance of `JMMeetingView`. 
+### Set User Type
+Use setUserType method of JVWatchPartyViewModel .
+
+### Set Meeting Data
+Use setMeetingData method of JVWatchPartyViewModel .
+
+Please take below reference.
 
 ```swift
-private var meetingView = JMMeetingView()
+class PartyManager: NSObject {
+
+   static let instance = PartyManager()
+   let viewModel = JVWatchPartyViewModel()
+
+   override init() { 
+      super.init()
+      let isUserLoggedIn = UserDefaults.standard.value(forKey: "isUserLoggedIN") as? Bool ?? false
+      if isUserLoggedIn {
+         viewModel.setUserType(type: .loggedIn(userName: "John"))
+      } else {
+         viewModel.setUserType(type: .guest)
+      }
+   }
+
+   func setMeetingData(meetingID: String, meetingPIN: String, ownerName: String) {
+      viewModel.setMeetingData(
+            meetingID: meetingID,
+            meetingPIN: meetingPIN,
+            ownerName: ownerName
+      )
+   }
+
+}
 ```
 
-Add it to your viewController view. 
-
-```swift
-meetingView.translatesAutoresizingMaskIntoConstraints = false
-view.addSubview(meetingView)
-
-NSLayoutConstraint.activate([
-    meetingView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-    meetingView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-    meetingView.topAnchor.constraint(equalTo: view.topAnchor),
-    meetingView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-])
-```
-
-## Join Meeting
-
-### Create Meeting Data
-
-First create `JMJoinMeetingData` type object. Following are the properties of this object.
-
-| Property Name | Type  | Description  |
-| ------- | --- | --- |
-| meetingId | String | Meeting ID of the meeting user is going to join. |
-| meetingPin | String | Meeting PIN of the meeting user is going to join. |
-| displayName | String | Display Name with which user is going to join the meeting. |
-
-```swift
-let joinMeetingData = JMJoinMeetingData(
-    meetingId: "9680763133",
-    meetingPin: "1tKzt",
-    displayName: "John Appleased"
-)
-```
 
 ### Create Meeting Configuration
 
