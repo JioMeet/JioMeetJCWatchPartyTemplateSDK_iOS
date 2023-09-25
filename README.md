@@ -15,7 +15,7 @@
 6. [Integration Steps](#integration-steps)
    - [Add SDK](#add-sdk)
    - [Import SDK](#import-sdk)
-7. [Join Meeting](#join-meeting)
+7. [Start WatchParty](#join-meeting)
    - [Create Meeting Data](#create-meeting-data)
    - [Create Meeting Configuration](#create-meeting-configuration)
    - [Join Meeting with data and config](#join-meeting-with-data-and-config)
