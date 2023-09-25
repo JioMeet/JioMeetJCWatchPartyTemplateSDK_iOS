@@ -53,6 +53,8 @@ Before getting started with this example app, please ensure you have the followi
 - Xcode 14.2 or later.
 - Swift 5.0 or later.
 - An iOS device or emulator running iOS 13.0 or later.
+- **JWTToken api from backend**
+
 
 ## Setup
 
