@@ -175,7 +175,6 @@ class PartyManager: NSObject {
 	
 	override init() {
 		super.init()
-        viewModel.setcustomParameters(params: ["serverEnvironment": "rc"])
 		let isUserLoggedIn = UserDefaults.standard.value(forKey: "isUserLoggedIN") as? Bool ?? false
 		if isUserLoggedIn {
 			viewModel.setUserType(type: .loggedIn(userName: "John"))

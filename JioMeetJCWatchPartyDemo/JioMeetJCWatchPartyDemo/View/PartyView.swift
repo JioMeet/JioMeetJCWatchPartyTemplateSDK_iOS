@@ -109,33 +109,22 @@ struct PartyView: View {
 				} else if selectedIndex == 1 {
 					ZStack(alignment: .center) {
 						JVWatchPartyView {
-							processJWTTokenRequest()
+                            // Pass JWT token to start meeting.
+                            sendJWTTokenNotification(token: "")
 						} onPressTermsAndConditionLink: { (url) in
-							print("LOGS ::: Main App ::: ====================================")
-							print("LOGS ::: Main App ::: T&C Link to share \(url?.absoluteString ?? "")")
-							print("LOGS ::: Main App ::: ====================================")
 							guard let strongURL = url else { return }
 							openURL(strongURL)
 						} onRequestToShareInvite: { (meetingID, meetingPin, ownerName) in
-							print("LOGS ::: Main App ::: ====================================")
-							print("LOGS ::: Main App ::: Meeting ID To share \(meetingID)")
-							print("LOGS ::: Main App ::: Meeting PIN To share \(meetingPin)")
-							print("LOGS ::: Main App ::: Meeting Owner To share \(ownerName)")
-							print("LOGS ::: Main App ::: ====================================")
-							
-							ShareInfo.instance.meetingID = meetingID
+                            ShareInfo.instance.meetingID = meetingID
 							ShareInfo.instance.meetingPIN = meetingPin
 							ShareInfo.instance.ownerName = ownerName
 							isShareSheetPresented = true
 						} onRequiredToChangeMediaPlayerVolume: { newLevel in
-							print("LOGS ::: Main App ::: ====================================")
-							print("LOGS ::: Main App ::: New Volume Level is \(newLevel)")
-							print("LOGS ::: Main App ::: ====================================")
-							player.volume = newLevel
+                            player.volume = newLevel
 						} onRequestForUserLogin: {
 							showUserLoginView = true
 						} onRequestToSendAnalyticsEvent: { (event) in
-							event
+							
 							print(event.eventData)
 						}
 						//.edgesIgnoringSafeArea(.all)
@@ -194,65 +183,7 @@ struct PartyView: View {
 		return ((readerSize.width * 204) / 360)
 	}
 	
-	private func processJWTTokenRequest() {
-		let tokenUrl = "https://auth-jiocinema.voot.com/tokenservice/apis/v4/guest"
-		let deviceId = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
-		let params: [String: Any] = [
-			"deviceType": "phone",
-			"os": "iOS",
-			"appName": "RJIL_JioCinema",
-			"deviceId": deviceId,
-            
-            "adId": "0",
-            "freshLaunch": false,
-            "appVersion": "2.2.2"
-		]
-		
-		guard let requestURL = URL(string: tokenUrl) else {
-			// completion(nil)
-			return
-		}
-		
-		var urlRequest = URLRequest(
-			url: requestURL,
-			cachePolicy: .reloadIgnoringLocalAndRemoteCacheData,
-			timeoutInterval: 60
-		)
-		
-		urlRequest.httpMethod = "POST"
-		
-		let requestData = try? JSONSerialization.data(withJSONObject: params)
-		urlRequest.httpBody = requestData
-		
-		let dataRequest = URLSession.shared.dataTask(with: urlRequest) {(data, urlResponse, error) in
-			DispatchQueue.main.async {
-				guard
-					error == nil,
-					let httpResponse = urlResponse as? HTTPURLResponse,
-					(200...299).contains(httpResponse.statusCode),
-					let strongData = data
-				else {
-					// completion(nil)
-					// self?.sendFailedToCreatePartyNotification()
-					sendJWTTokenNotification(token: "")
-					return
-				}
-				
-				do {
-					let jsonResponse = try JSONSerialization.jsonObject(with: strongData) as? [String: Any] ?? [:]
-					let authToken = jsonResponse["authToken"] as? String ?? ""
-					sendJWTTokenNotification(token: authToken)
-					// completion(authToken)
-				} catch {
-					print(error.localizedDescription)
-					sendJWTTokenNotification(token: "")
-					// self?.sendFailedToCreatePartyNotification()
-					// completion(nil)
-				}
-			}
-		}
-		dataRequest.resume()
-	}
+    
 	
 	private func sendJWTTokenNotification(token: String) {
 		NotificationCenter.default.post(
@@ -261,6 +192,7 @@ struct PartyView: View {
 			userInfo: ["jwtToken": token]
 		)
 	}
+     
 }
 
 @available(iOS 14.0, *)
