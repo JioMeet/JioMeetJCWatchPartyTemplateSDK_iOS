@@ -214,4 +214,4 @@ JVWatchPartyView {
 
 ## Troubleshooting
 
-Facing any issues while integrating or installing the JioMeet Template UI Kit please connect with us via real time support present in jiomeet.support@jio.com or https://jiomeetpro.jio.com/contact-us
+Facing any issues while integrating or installing the JioMeet JCWatchParty Template Kit please connect with us via real time support present in jiomeet.support@jio.com or https://jiomeetpro.jio.com/contact-us
