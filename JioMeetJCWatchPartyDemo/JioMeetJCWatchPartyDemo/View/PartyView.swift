@@ -12,6 +12,8 @@ import JioMeetCoreSDK
 import JioMeetWatchParty
 import MediaPlayer
 
+let JWT_TOKEN = ""
+
 class ShareInfo {
 	static let instance = ShareInfo()
 	var meetingID = ""
@@ -100,7 +102,9 @@ struct PartyView: View {
 					ZStack(alignment: .center) {
 						JVWatchPartyView {
                             // Pass JWT token to start meeting.
-                            sendJWTTokenNotification(token: "")
+                            // JWT_TOKEN IS ONLY FOR REFERENCE.
+                            // You will get token from your backend.
+                            sendJWTTokenNotification(token: JWT_TOKEN)
 						} onPressTermsAndConditionLink: { (url) in
 							guard let strongURL = url else { return }
 							openURL(strongURL)
