@@ -15,7 +15,6 @@
 6. [Integration Steps](#integration-steps)
    - [Add SDK](#add-sdk)
    - [Import SDK](#import-sdk)
-   - [Integrate Meeting View](#integrate-meeting-view)
 7. [Join Meeting](#join-meeting)
    - [Create Meeting Data](#create-meeting-data)
    - [Create Meeting Configuration](#create-meeting-configuration)
