@@ -16,13 +16,11 @@
    - [Add SDK](#add-sdk)
    - [Import SDK](#import-sdk)
 7. [Start WatchParty](#join-meeting)
-   - [Create Meeting Data](#create-meeting-data)
-   - [Create Meeting Configuration](#create-meeting-configuration)
-   - [Join Meeting with data and config](#join-meeting-with-data-and-config)
-   - [Implement JMMeetingViewDelegate methods](#implement-jmmeetingviewdelegate-methods)
-8. [Run Project](#run-project)
-9. [Reference Classes](#reference-classes)
-10. [Troubleshooting](#troubleshooting)
+   - [Create WatchParty View Model](#create-meeting-data)
+   - [Set User Type](#create-meeting-configuration)
+   - [Set Meeting Data](#join-meeting-with-data-and-config)
+8. [Reference Classes](#reference-classes)
+9. [Troubleshooting](#troubleshooting)
 
 ## Introduction
 
