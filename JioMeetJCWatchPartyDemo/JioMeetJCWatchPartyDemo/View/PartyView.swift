@@ -33,13 +33,8 @@ struct PartyView: View {
 			string: "https://moctobpltc-i.akamaihd.net/hls/live/571329/eight/playlist.m3u8"
 		)!
 	)
-	
-	// var audioSessionPublisher = NotificationCenter.default.publisher(for: AVAudioSession.routeChangeNotification)
-	
-	init(meetingID: String = "", meetingPIN: String = "", ownerName: String = "") {
 		
-		// watchPartyViewModel.setUserType(isGuestUser: false)
-		// watchPartyViewModel.setMeetingData(meetingID: meetingID, meetingPIN: meetingPIN, ownerName: ownerName)
+	init(meetingID: String = "", meetingPIN: String = "", ownerName: String = "") {
 	}
 	
 	var body: some View {
@@ -54,11 +49,6 @@ struct PartyView: View {
 						self.player.play()
 					}
 				}
-				
-//				Slider(value: $soundLevel, in: 0...1,step: 0.0625, onEditingChanged: { data in
-//					MPVolumeView.setVolume(self.soundLevel)
-//				}).frame(height: 50)
-				
 				
 				ZStack(alignment: .center) {
 					Color.yellow
@@ -137,7 +127,6 @@ struct PartyView: View {
 								showUserLoginView = false
 								isUserLoggedIn = true
 								PartyManager.instance.viewModel.setUserType(type: .loggedIn(userName: "John"))
-								// PartyManager.instance.viewModel.setUserType(isGuestUser: false)
 							}.edgesIgnoringSafeArea(.all)
 
 						}
