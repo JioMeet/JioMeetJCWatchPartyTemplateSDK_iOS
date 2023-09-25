@@ -100,7 +100,9 @@ import JioMeetCoreSDK
 import JioMeetWatchParty
 ```
 
-## Create WatchParty View Model
+## Start WatchParty
+
+### Create WatchParty View Model
 
 First create an instance of JVWatchPartyViewModel . Make sure it should not go out of scope once UI is rerendered on state change. You can use a Singleton class and create a variable of JVWatchPartyViewModel type.
 You need to assign some initial values by JVWatchPartyViewModel instance like user type (guest or logged in user), meeting ID, meeting pin and party owner name.
