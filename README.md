@@ -183,23 +183,23 @@ JVWatchPartyView {
 
 All below methods can be called via instance of JVWatchPartyViewModel .
 
-## Get Current WatchParty Meeting ID
+### Get Current WatchParty Meeting ID
 
 public func getCurrentPartyID() -> String
 
-## Force Exit Current WatchParty
+### Force Exit Current WatchParty
 
 public func forceLeaveCurrentWatchParty(completion: ((_ isPartyLeft: Bool) -> Void)? = nil)
 
-## Check if User is in WatchParty or Not
+### Check if User is in WatchParty or Not
 
 public func isUserAlreadyInParty() -> Bool
 
-## Set User Type
+### Set User Type
 
 public func setUserType(type: JVPartyUserType)
 
-## Set Meeting Data
+### Set Meeting Data
 
 public func setMeetingData(meetingID: String, meetingPIN: String, ownerName: String)
 
