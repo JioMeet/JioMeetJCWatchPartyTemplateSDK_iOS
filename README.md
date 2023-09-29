@@ -5,27 +5,23 @@
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
-4. [Setup](#setup)
-   - [Register on JioMeet Platform](#register-on-jiomeet-platform)
-   - [Get Your Application Keys](#get-your-application-keys)
-   - [Get Your JioMeet Meeting ID and PIN](#get-your-jiomeet-meeting-id-and-pin)
-5. [Project Settings](#project-settings)
+4. [Project Settings](#project-settings)
    - [Info.plist Changes](#infoplist-changes)
    - [Enable Background Mode](#enable-background-mode)
-6. [Integration Steps](#integration-steps)
+5. [Integration Steps](#integration-steps)
    - [Add SDK](#add-sdk)
    - [Import SDK](#import-sdk)
-7. [Start WatchParty](#start-watchparty)
+6. [Start WatchParty](#start-watchparty)
    - [Create WatchParty View Model](#create-watchparty-view-model)
    - [Add WatchParty View](#add-watchparty-view)
-8. [Public Methods](#public-methods)
+7. [Public Methods](#public-methods)
    - [Get Current WatchParty Meeting ID](#get-current-watchparty-meeting-id)
    - [Force Exit Current WatchParty](#force-exit-watchparty)
    - [Check if User is in WatchParty or Not](#check-user-in-watchparty)
    - [Set User Type](#set-user-type)
    - [Set Meeting Data](#set-meeting-data)
-9. [Reference Classes](#reference-classes)
-10. [Troubleshooting](#troubleshooting)
+8. [Reference Classes](#reference-classes)
+9. [Troubleshooting](#troubleshooting)
 
 ## Introduction
 
@@ -54,21 +50,6 @@ Before getting started with this example app, please ensure you have the followi
 - Swift 5.0 or later.
 - An iOS device or emulator running iOS 13.0 or later.
 - **JWTToken api from backend**
-
-
-## Setup
-
-#### Register on JioMeet Platform:
-
-You need to first register on Jiomeet platform. [Click here to sign up](https://platform.jiomeet.com/login/signUp)
-
-#### Get your application keys:
-
-Create a new app. Please follow the steps provided in the [Documentation guide](https://dev.jiomeet.com/docs/quick-start/introduction) to create apps before you proceed.
-
-#### Get your Jiomeet meeting id and pin
-
-Use the [create meeting api](https://dev.jiomeet.com/docs/JioMeet%20Platform%20Server%20APIs/create-a-dynamic-meeting) to get your room id and password
 
 ## Project Settings
 
