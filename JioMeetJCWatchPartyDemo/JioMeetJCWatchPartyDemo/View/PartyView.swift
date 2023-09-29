@@ -12,6 +12,8 @@ import JioMeetCoreSDK
 import JioMeetWatchParty
 import MediaPlayer
 
+let JWT_TOKEN = ""
+
 class ShareInfo {
 	static let instance = ShareInfo()
 	var meetingID = ""
@@ -33,13 +35,8 @@ struct PartyView: View {
 			string: "https://moctobpltc-i.akamaihd.net/hls/live/571329/eight/playlist.m3u8"
 		)!
 	)
-	
-	// var audioSessionPublisher = NotificationCenter.default.publisher(for: AVAudioSession.routeChangeNotification)
-	
-	init(meetingID: String = "", meetingPIN: String = "", ownerName: String = "") {
 		
-		// watchPartyViewModel.setUserType(isGuestUser: false)
-		// watchPartyViewModel.setMeetingData(meetingID: meetingID, meetingPIN: meetingPIN, ownerName: ownerName)
+	init(meetingID: String = "", meetingPIN: String = "", ownerName: String = "") {
 	}
 	
 	var body: some View {
@@ -54,11 +51,6 @@ struct PartyView: View {
 						self.player.play()
 					}
 				}
-				
-//				Slider(value: $soundLevel, in: 0...1,step: 0.0625, onEditingChanged: { data in
-//					MPVolumeView.setVolume(self.soundLevel)
-//				}).frame(height: 50)
-				
 				
 				ZStack(alignment: .center) {
 					Color.yellow
@@ -109,33 +101,24 @@ struct PartyView: View {
 				} else if selectedIndex == 1 {
 					ZStack(alignment: .center) {
 						JVWatchPartyView {
-							processJWTTokenRequest()
+                            // Pass JWT token to start meeting.
+                            // JWT_TOKEN IS ONLY FOR REFERENCE.
+                            // You will get token from your backend.
+                            sendJWTTokenNotification(token: JWT_TOKEN)
 						} onPressTermsAndConditionLink: { (url) in
-							print("LOGS ::: Main App ::: ====================================")
-							print("LOGS ::: Main App ::: T&C Link to share \(url?.absoluteString ?? "")")
-							print("LOGS ::: Main App ::: ====================================")
 							guard let strongURL = url else { return }
 							openURL(strongURL)
 						} onRequestToShareInvite: { (meetingID, meetingPin, ownerName) in
-							print("LOGS ::: Main App ::: ====================================")
-							print("LOGS ::: Main App ::: Meeting ID To share \(meetingID)")
-							print("LOGS ::: Main App ::: Meeting PIN To share \(meetingPin)")
-							print("LOGS ::: Main App ::: Meeting Owner To share \(ownerName)")
-							print("LOGS ::: Main App ::: ====================================")
-							
-							ShareInfo.instance.meetingID = meetingID
+                            ShareInfo.instance.meetingID = meetingID
 							ShareInfo.instance.meetingPIN = meetingPin
 							ShareInfo.instance.ownerName = ownerName
 							isShareSheetPresented = true
 						} onRequiredToChangeMediaPlayerVolume: { newLevel in
-							print("LOGS ::: Main App ::: ====================================")
-							print("LOGS ::: Main App ::: New Volume Level is \(newLevel)")
-							print("LOGS ::: Main App ::: ====================================")
-							player.volume = newLevel
+                            player.volume = newLevel
 						} onRequestForUserLogin: {
 							showUserLoginView = true
 						} onRequestToSendAnalyticsEvent: { (event) in
-							event
+							
 							print(event.eventData)
 						}
 						//.edgesIgnoringSafeArea(.all)
@@ -148,7 +131,6 @@ struct PartyView: View {
 								showUserLoginView = false
 								isUserLoggedIn = true
 								PartyManager.instance.viewModel.setUserType(type: .loggedIn(userName: "John"))
-								// PartyManager.instance.viewModel.setUserType(isGuestUser: false)
 							}.edgesIgnoringSafeArea(.all)
 
 						}
@@ -194,65 +176,7 @@ struct PartyView: View {
 		return ((readerSize.width * 204) / 360)
 	}
 	
-	private func processJWTTokenRequest() {
-		let tokenUrl = "https://auth-jiocinema.voot.com/tokenservice/apis/v4/guest"
-		let deviceId = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
-		let params: [String: Any] = [
-			"deviceType": "phone",
-			"os": "iOS",
-			"appName": "RJIL_JioCinema",
-			"deviceId": deviceId,
-            
-            "adId": "0",
-            "freshLaunch": false,
-            "appVersion": "2.2.2"
-		]
-		
-		guard let requestURL = URL(string: tokenUrl) else {
-			// completion(nil)
-			return
-		}
-		
-		var urlRequest = URLRequest(
-			url: requestURL,
-			cachePolicy: .reloadIgnoringLocalAndRemoteCacheData,
-			timeoutInterval: 60
-		)
-		
-		urlRequest.httpMethod = "POST"
-		
-		let requestData = try? JSONSerialization.data(withJSONObject: params)
-		urlRequest.httpBody = requestData
-		
-		let dataRequest = URLSession.shared.dataTask(with: urlRequest) {(data, urlResponse, error) in
-			DispatchQueue.main.async {
-				guard
-					error == nil,
-					let httpResponse = urlResponse as? HTTPURLResponse,
-					(200...299).contains(httpResponse.statusCode),
-					let strongData = data
-				else {
-					// completion(nil)
-					// self?.sendFailedToCreatePartyNotification()
-					sendJWTTokenNotification(token: "")
-					return
-				}
-				
-				do {
-					let jsonResponse = try JSONSerialization.jsonObject(with: strongData) as? [String: Any] ?? [:]
-					let authToken = jsonResponse["authToken"] as? String ?? ""
-					sendJWTTokenNotification(token: authToken)
-					// completion(authToken)
-				} catch {
-					print(error.localizedDescription)
-					sendJWTTokenNotification(token: "")
-					// self?.sendFailedToCreatePartyNotification()
-					// completion(nil)
-				}
-			}
-		}
-		dataRequest.resume()
-	}
+    
 	
 	private func sendJWTTokenNotification(token: String) {
 		NotificationCenter.default.post(
@@ -261,6 +185,7 @@ struct PartyView: View {
 			userInfo: ["jwtToken": token]
 		)
 	}
+     
 }
 
 @available(iOS 14.0, *)
