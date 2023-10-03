@@ -14,6 +14,8 @@
 6. [Start WatchParty](#start-watchparty)
    - [Create WatchParty View Model](#create-watchparty-view-model)
    - [Add WatchParty View](#add-watchparty-view)
+   - [WatchParty Preview](#watchparty-preview)
+
 7. [Public Methods](#public-methods)
    - [Get Current WatchParty Meeting ID](#get-current-watchparty-meeting-id)
    - [Force Exit Current WatchParty](#force-exit-watchparty)
@@ -166,6 +168,17 @@ JVWatchPartyView {
 }.environmentObject(PartyManager.instance.viewModel) // Set View Model you created earlier as environmentObject
 
 ```
+
+## Watchparty Preview
+
+## Party Started 
+
+![party started](https://storage.googleapis.com/cpass-sdk/assets/screenshots/iOS/Watchparty/party_Started.png)
+
+## Menu Setting
+
+![menu setting](https://storage.googleapis.com/cpass-sdk/assets/screenshots/iOS/Watchparty/menu_setting.png)
+
 
 ## Public Methods
 
