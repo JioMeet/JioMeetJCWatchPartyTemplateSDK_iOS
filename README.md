@@ -75,9 +75,9 @@ Please enable `Background Modes` in your project `Signing & Capibilities` tab. A
 
 ### Add SDK
 
-Please add WatchParty SDK as a dependency via Swift Package Manager. Use below git url.
+Please add WatchParty SDK as a dependency via Swift Package Manager and use latest release. Use below git url.
 
-https://github.com/JioMeet/JioMeetCoreSDK_iOS
+[https://github.com/JioMeet/JioMeetJCWatchPartyTemplateSDK_iOS.git](https://github.com/JioMeet/JioMeetJCWatchPartyTemplateSDK_iOS.git)
 
 ### Import SDK
 
