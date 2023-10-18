@@ -36,7 +36,7 @@ let package = Package(
 		),
 		.package(
 			name: "JioMeetMediaStackSDK",
-			url: "https://github.com/Flipboard/FLAnimatedImage.git",
+			url: "https://github.com/JioMeet/JMMediaStackSDK_iOS.git",
 			.upToNextMajor(from: "0.0.2")
 		)
 	],
