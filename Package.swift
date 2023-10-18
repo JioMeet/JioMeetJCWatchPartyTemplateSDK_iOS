@@ -17,34 +17,39 @@ let package = Package(
 		.package(
 			name: "JioMeetRtcEngine_iOS",
 			url: "https://github.com/JioMeet/JioMeet-rtc-engine-ios.git",
-			from: "3.7.2"
+			.upToNextMajor(from: "3.7.2")
 		),
 		.package(
 			name: "Lottie",
 			url: "https://github.com/airbnb/lottie-spm.git",
-			from: "4.3.3"
+			.upToNextMajor(from: "4.3.3")
 		),
 		.package(
 			name: "Starscream",
 			url: "https://github.com/daltoniam/Starscream.git",
-			from: "4.0.6"
+			.upToNextMajor(from: "4.0.6")
 		),
 		.package(
 			name: "FLAnimatedImage",
 			url: "https://github.com/Flipboard/FLAnimatedImage.git",
-			from: "1.0.17"
+			.upToNextMajor(from: "1.0.17")
+		),
+		.package(
+			name: "JioMeetMediaStackSDK",
+			url: "https://github.com/Flipboard/FLAnimatedImage.git",
+			.upToNextMajor(from: "0.0.2")
 		)
 	],
 	targets: [
 		.binaryTarget(
 			name: "JioMeetCoreSDK",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_17/JioMeetCoreSDK.xcframework.zip",
-			checksum: "bd79c3f096dae55d842115ab0a928ec37cbb2df42ca413fe9a269a8499624067"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_2_0_0_alpha_1/JioMeetCoreSDK.xcframework.zip",
+			checksum: "2b711ff93cff1c78688193dc5f0002a12fa881a0737ba340ea040329e59b4376"
 		),
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_17/JioMeetWatchParty.xcframework.zip",
-			checksum: "91ec9635ab3b0b8c664a844027ae74e06f607d32c3c19a509978772c4b603556"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_2_0_0_alpha_1/JioMeetWatchParty.xcframework.zip",
+			checksum: "db88ea028bce62d83ad70770ec928c305872476e25ed1d4f2494409b8a97e17b"
 		),
 		.target(
 			name: "JioMeetWatchPartyTarget",
@@ -56,6 +61,7 @@ let package = Package(
 				.product(name: "Lottie", package: "Lottie"),
 				.product(name: "Starscream", package: "Starscream"),
 				.product(name: "FLAnimatedImage", package: "FLAnimatedImage"),
+				.product(name: "JioMeetMediaStackSDK", package: "JioMeetMediaStackSDK")
 			],
 			path: "Framework/Dependency",
 			exclude: []
