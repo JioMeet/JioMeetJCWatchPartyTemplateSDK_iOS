@@ -38,12 +38,12 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "JioMeetCoreSDK",
-			url: "https://github.com/JioMeet/JioMeetJCWatchPartyTemplateSDK_iOS/raw/release/1.1.18/libs/1/JioMeetCoreSDK.xcframework.zip",
+			url: "https://raw.githubusercontent.com/JioMeet/JioMeetJCWatchPartyTemplateSDK_iOS/release/1.1.18/libs/1/JioMeetCoreSDK.xcframework.zip",
 			checksum: "2a51d1ea1cc997057fbee3d642a9302fb341857417e852ab32ab76af88dc4e9e"
 		),
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://github.com/JioMeet/JioMeetJCWatchPartyTemplateSDK_iOS/raw/release/1.1.18/libs/1/JioMeetWatchParty.xcframework.zip",
+			url: "https://raw.githubusercontent.com/JioMeet/JioMeetJCWatchPartyTemplateSDK_iOS/release/1.1.18/libs/1/JioMeetWatchParty.xcframework.zip",
 			checksum: "dc3839bda65d232efdb88a71332fd9c56c8e4b2737262a65aa6b56817df042b0"
 		),
 		.target(
