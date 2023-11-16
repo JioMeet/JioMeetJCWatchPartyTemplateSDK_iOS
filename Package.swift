@@ -38,13 +38,13 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "JioMeetCoreSDK",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_17/JioMeetCoreSDK.xcframework.zip",
-			checksum: "bd79c3f096dae55d842115ab0a928ec37cbb2df42ca413fe9a269a8499624067"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_18/JioMeetCoreSDK.xcframework.zip",
+			checksum: "c97885653b827458dbe05b23223ec87968de39ea311425f32b6ebfbd27fa8f3f"
 		),
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_17/JioMeetWatchParty.xcframework.zip",
-			checksum: "91ec9635ab3b0b8c664a844027ae74e06f607d32c3c19a509978772c4b603556"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_18/JioMeetWatchParty.xcframework.zip",
+			checksum: "5c7a35611ade03f674f6a0d3ad9a25acc2cee5f4b54032f975c904394c8d30a7"
 		),
 		.target(
 			name: "JioMeetWatchPartyTarget",
