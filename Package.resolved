@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FLAnimatedImage",
+        "repositoryURL": "https://github.com/Flipboard/FLAnimatedImage.git",
+        "state": {
+          "branch": null,
+          "revision": "d4f07b6f164d53c1212c3e54d6460738b1981e9f",
+          "version": "1.0.17"
+        }
+      },
+      {
+        "package": "JioMeetRtcEngine_iOS",
+        "repositoryURL": "https://github.com/JioMeet/JioMeet-rtc-engine-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "352d96722986c14d7bdc0df808db621279d0acbd",
+          "version": "3.7.2"
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-spm.git",
+        "state": {
+          "branch": null,
+          "revision": "96790253c1a82223bd43da651121abfd7e96d0f3",
+          "version": "4.3.4"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream.git",
+        "state": {
+          "branch": null,
+          "revision": "ac6c0fc9da221873e01bd1a0d4818498a71eef33",
+          "version": "4.0.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
