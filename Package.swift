@@ -22,7 +22,7 @@ let package = Package(
 		.package(
 			name: "Lottie",
 			url: "https://github.com/airbnb/lottie-spm.git",
-			from: "4.3.3"
+			.exact("4.3.3")
 		),
 		.package(
 			name: "Starscream",
@@ -38,13 +38,13 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "JioMeetCoreSDK",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_17/JioMeetCoreSDK.xcframework.zip",
-			checksum: "bd79c3f096dae55d842115ab0a928ec37cbb2df42ca413fe9a269a8499624067"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_19_2/JioMeetCoreSDK.xcframework.zip",
+			checksum: "bcd0d60ff6b568d047ce116350e18f04d362c108db63509b98aa356978b5988f"
 		),
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_17/JioMeetWatchParty.xcframework.zip",
-			checksum: "91ec9635ab3b0b8c664a844027ae74e06f607d32c3c19a509978772c4b603556"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_19_2/JioMeetWatchParty.xcframework.zip",
+			checksum: "ebc585ebb58b52c46d2930343f6e0b418dddd9e71972e5cc80a056a9be3855b7"
 		),
 		.target(
 			name: "JioMeetWatchPartyTarget",
