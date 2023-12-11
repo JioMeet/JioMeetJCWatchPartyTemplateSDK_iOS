@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBA10EAC2B2726D4001DD9FC /* JVWatchPartySDK in Frameworks */ = {isa = PBXBuildFile; productRef = EBA10EAB2B2726D4001DD9FC /* JVWatchPartySDK */; };
 		F78D1B182ABD7B070077264C /* JioMeetJCWatchPartyDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D1B172ABD7B070077264C /* JioMeetJCWatchPartyDemoApp.swift */; };
 		F78D1B1C2ABD7B080077264C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78D1B1B2ABD7B080077264C /* Assets.xcassets */; };
 		F78D1B1F2ABD7B080077264C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78D1B1E2ABD7B080077264C /* Preview Assets.xcassets */; };
@@ -19,7 +20,6 @@
 		F78D1B372ABD7CB40077264C /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D1B342ABD7CB40077264C /* DemoView.swift */; };
 		F78D1B382ABD7CB40077264C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D1B352ABD7CB40077264C /* LoginView.swift */; };
 		F78D1B392ABD7CB40077264C /* PartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D1B362ABD7CB40077264C /* PartyView.swift */; };
-		F78D1B3C2ABD7DAA0077264C /* JVWatchPartySDK in Frameworks */ = {isa = PBXBuildFile; productRef = F78D1B3B2ABD7DAA0077264C /* JVWatchPartySDK */; };
 		F78D1B3F2AC166160077264C /* PartyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D1B3E2AC166160077264C /* PartyManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78D1B3C2ABD7DAA0077264C /* JVWatchPartySDK in Frameworks */,
+				EBA10EAC2B2726D4001DD9FC /* JVWatchPartySDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 			);
 			name = JioMeetJCWatchPartyDemo;
 			packageProductDependencies = (
-				F78D1B3B2ABD7DAA0077264C /* JVWatchPartySDK */,
+				EBA10EAB2B2726D4001DD9FC /* JVWatchPartySDK */,
 			);
 			productName = JioMeetJCWatchPartyDemo;
 			productReference = F78D1B142ABD7B070077264C /* JioMeetJCWatchPartyDemo.app */;
@@ -170,7 +170,7 @@
 			);
 			mainGroup = F78D1B0B2ABD7B070077264C;
 			packageReferences = (
-				F78D1B3A2ABD7DAA0077264C /* XCRemoteSwiftPackageReference "JioMeet-SDK-iOS" */,
+				EBA10EAA2B2726D4001DD9FC /* XCRemoteSwiftPackageReference "JioMeetJCWatchPartyTemplateSDK_iOS" */,
 			);
 			productRefGroup = F78D1B152ABD7B070077264C /* Products */;
 			projectDirPath = "";
@@ -417,20 +417,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F78D1B3A2ABD7DAA0077264C /* XCRemoteSwiftPackageReference "JioMeet-SDK-iOS" */ = {
+		EBA10EAA2B2726D4001DD9FC /* XCRemoteSwiftPackageReference "JioMeetJCWatchPartyTemplateSDK_iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/JioMeet/JioMeet-SDK-iOS.git";
+			repositoryURL = "https://github.com/JioMeet/JioMeetJCWatchPartyTemplateSDK_iOS.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.16;
+				kind = exactVersion;
+				version = 1.1.19;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F78D1B3B2ABD7DAA0077264C /* JVWatchPartySDK */ = {
+		EBA10EAB2B2726D4001DD9FC /* JVWatchPartySDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F78D1B3A2ABD7DAA0077264C /* XCRemoteSwiftPackageReference "JioMeet-SDK-iOS" */;
+			package = EBA10EAA2B2726D4001DD9FC /* XCRemoteSwiftPackageReference "JioMeetJCWatchPartyTemplateSDK_iOS" */;
 			productName = JVWatchPartySDK;
 		};
 /* End XCSwiftPackageProductDependency section */

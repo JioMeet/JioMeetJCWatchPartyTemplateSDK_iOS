@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "flanimatedimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Flipboard/FLAnimatedImage.git",
+      "state" : {
+        "revision" : "d4f07b6f164d53c1212c3e54d6460738b1981e9f",
+        "version" : "1.0.17"
+      }
+    },
+    {
       "identity" : "jiomeet-rtc-engine-ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/JioMeet/JioMeet-rtc-engine-ios.git",
@@ -10,12 +19,12 @@
       }
     },
     {
-      "identity" : "jiomeet-sdk-ios",
+      "identity" : "jiomeetjcwatchpartytemplatesdk_ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/JioMeet/JioMeet-SDK-iOS.git",
+      "location" : "https://github.com/JioMeet/JioMeetJCWatchPartyTemplateSDK_iOS.git",
       "state" : {
-        "revision" : "69d2d6aefa7e197afd49dbf9d103f79814959dd0",
-        "version" : "1.1.16"
+        "revision" : "f468da4a21fa8c50b000f30de6c4035e2cb01177",
+        "version" : "1.1.19"
       }
     },
     {
@@ -23,8 +32,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/airbnb/lottie-spm.git",
       "state" : {
-        "revision" : "3094834a82a75dae679fbe593f08bf1b168c2afe",
-        "version" : "4.3.1"
+        "revision" : "3e7eb8281ff9ac67e64a3a58a80c0aa9fa388b04",
+        "version" : "4.3.3"
+      }
+    },
+    {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daltoniam/Starscream.git",
+      "state" : {
+        "revision" : "ac6c0fc9da221873e01bd1a0d4818498a71eef33",
+        "version" : "4.0.6"
       }
     }
   ],
