@@ -33,18 +33,23 @@ let package = Package(
 			name: "FLAnimatedImage",
 			url: "https://github.com/Flipboard/FLAnimatedImage.git",
 			from: "1.0.17"
+		),
+		.package(
+			name: "JioMeetMediaStackSDK",
+			url: "https://github.com/JioMeet/JMMediaStackSDK_iOS.git",
+			.exact("0.0.4")
 		)
 	],
 	targets: [
 		.binaryTarget(
 			name: "JioMeetCoreSDK",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_19_2/JioMeetCoreSDK.xcframework.zip",
-			checksum: "bcd0d60ff6b568d047ce116350e18f04d362c108db63509b98aa356978b5988f"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_2_0_0_alpha_2_2/JioMeetCoreSDK.xcframework.zip",
+			checksum: "3c5ee2304b274f922a6f4301533cc270a0faa8cf24af33517222d74e1340fed3"
 		),
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_1_1_19_2/JioMeetWatchParty.xcframework.zip",
-			checksum: "ebc585ebb58b52c46d2930343f6e0b418dddd9e71972e5cc80a056a9be3855b7"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_2_0_0_alpha_2_2/JioMeetWatchParty.xcframework.zip",
+			checksum: "048ef92d5d6d6e4a091dc056babb3326c80f7c8f73792ba7e639cbb8e3ff1b57"
 		),
 		.target(
 			name: "JioMeetWatchPartyTarget",
@@ -56,6 +61,7 @@ let package = Package(
 				.product(name: "Lottie", package: "Lottie"),
 				.product(name: "Starscream", package: "Starscream"),
 				.product(name: "FLAnimatedImage", package: "FLAnimatedImage"),
+				.product(name: "JioMeetMediaStackSDK", package: "JioMeetMediaStackSDK")
 			],
 			path: "Framework/Dependency",
 			exclude: []
