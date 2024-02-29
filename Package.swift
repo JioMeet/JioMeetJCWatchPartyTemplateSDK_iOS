@@ -17,7 +17,7 @@ let package = Package(
 		.package(
 			name: "JioMeetCoreSDK",
 			url: "https://github.com/JioMeet/JioMeetCoreSDK_iOS.git",
-			branch: "v0.0.2"
+			.branch("v0.0.2")
 		),
 		.package(
 			name: "Lottie",
@@ -32,7 +32,7 @@ let package = Package(
 		.package(
 			name: "Amplitude",
 			url: "https://github.com/amplitude/Amplitude-iOS.git",
-			branch: "main"
+			.branch("main")
 		),
 	],
 	targets: [
