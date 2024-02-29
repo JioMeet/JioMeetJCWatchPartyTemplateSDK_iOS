@@ -17,7 +17,7 @@ let package = Package(
 		.package(
 			name: "JioMeetCoreSDK",
 			url: "https://github.com/JioMeet/JioMeetCoreSDK_iOS.git",
-			.upToNextMajor(from: "3.0.0-alpha.1")
+			branch: "v0.0.2"
 		),
 		.package(
 			name: "Lottie",
@@ -28,13 +28,18 @@ let package = Package(
 			name: "FLAnimatedImage",
 			url: "https://github.com/Flipboard/FLAnimatedImage.git",
 			from: "1.0.17"
-		)
+		),
+		.package(
+			name: "Amplitude",
+			url: "https://github.com/amplitude/Amplitude-iOS.git",
+			branch: "main"
+		),
 	],
 	targets: [
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_2_0_0_alpha_3/JioMeetWatchParty.xcframework.zip",
-			checksum: "e4d80e75ed7e2bc011b778f8a24dce333fc5120f140e6f272ead815a3aec5b1e"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_0_0_2_temp/JioMeetWatchParty.xcframework.zip",
+			checksum: "4cf021a59613824d9393fa999d8f40cfa574fbab193d6e3dc40cb897dfdd50fe"
 		),
 		.target(
 			name: "JioMeetWatchPartyTarget",
@@ -42,7 +47,8 @@ let package = Package(
 				.target(name: "JioMeetWatchParty"),
 				.product(name: "Lottie", package: "Lottie"),
 				.product(name: "FLAnimatedImage", package: "FLAnimatedImage"),
-				.product(name: "JioMeetCoreSDK", package: "JioMeetCoreSDK")
+				.product(name: "JioMeetCoreSDK", package: "JioMeetCoreSDK"),
+				.product(name: "Amplitude", package: "Amplitude"),
 			],
 			path: "Framework/Dependency",
 			exclude: []
