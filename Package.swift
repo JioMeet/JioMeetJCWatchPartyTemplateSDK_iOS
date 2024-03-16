@@ -17,7 +17,7 @@ let package = Package(
 		.package(
 			name: "JioMeetCoreSDK",
 			url: "https://github.com/JioMeet/JioMeetCoreSDK_iOS.git",
-			.upToNextMajor(from: "3.0.0-alpha.1")
+			.branch("v_3_0_2")
 		),
 		.package(
 			name: "Lottie",
@@ -33,8 +33,8 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_2_0_0_alpha_3/JioMeetWatchParty.xcframework.zip",
-			checksum: "e4d80e75ed7e2bc011b778f8a24dce333fc5120f140e6f272ead815a3aec5b1e"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_2_0_2/JioMeetWatchParty.xcframework.zip",
+			checksum: "aedbd9c933076d0362d3a96c412c262a702a88545c37e7c5487476e2b9b824d6"
 		),
 		.target(
 			name: "JioMeetWatchPartyTarget",
