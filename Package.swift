@@ -17,7 +17,7 @@ let package = Package(
 		.package(
 			name: "JioMeetCoreSDK",
 			url: "https://github.com/JioMeet/JioMeetCoreSDK_iOS.git",
-			.branch("v_3_0_2")
+			.upToNextMajor(from: "3.0.0-alpha.1")
 		),
 		.package(
 			name: "Lottie",
