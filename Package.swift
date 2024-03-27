@@ -66,12 +66,24 @@ let package = Package(
 			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/spm_demo_2/JioMeetWatchParty.xcframework.zip",
 			checksum: "75c5831e08862ac5c8e93145c5fa6f59e54251cf7d1206f6d8958db9e5aecfa6"
 		),
+		.binaryTarget(
+            name: "Mediasoup",
+            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/static/v_1_0_0/single/Mediasoup.xcframework.zip",
+            checksum: "756904959dbe4bbf3bc843dff64548d89c8ea54226e81982b84d234d128901f1"
+        ),
+        .binaryTarget(
+            name: "WebRTC",
+            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/static/v_1_0_0/single/WebRTC.xcframework.zip",
+            checksum: "0ca49f18e1e099bc1732c1949cc50111d79086ed575136477207e8646a553b2f"
+        ),
 		.target(
 			name: "JioMeetWatchPartyTarget",
 			dependencies: [
 				.target(name: "JMMediaStackSDK"),
 				.target(name: "JioMeetCoreSDK"),
 				.target(name: "JioMeetWatchParty"),
+				.target(name: "Mediasoup"),
+                .target(name: "WebRTC"),
 				.product(name: "SwiftyJSON", package: "SwiftyJSON"),
                 .product(name: "SocketIO", package: "SocketIO"),
                 .product(name: "MMWormhole", package: "MMWormhole"),
