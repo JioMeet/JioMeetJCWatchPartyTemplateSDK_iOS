@@ -53,18 +53,18 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "JMMediaStackSDK",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/spm_demo_2/JMMediaStackSDK.xcframework.zip",
-			checksum: "f12392b08615e7716aca762c60b707594b0e65ddc3ae46d72f97537e590c94ea"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/spm_demo_3/JMMediaStackSDK.xcframework.zip",
+			checksum: "62fe1b277803a76d00265068bc6d38b4572ec77f3979f231d137afcc79f04de9"
 		),
 		.binaryTarget(
 			name: "JioMeetCoreSDK",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/spm_demo_2/JioMeetCoreSDK.xcframework.zip",
-			checksum: "cc37a8717dab972327ccf5b0b5532c70b400b8ec1a2e0df6975d94d29866b669"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/spm_demo_3/JioMeetCoreSDK.xcframework.zip",
+			checksum: "ed9936574091e286f6fa3870e7df84a5691301f58593d4667b9bab4f70982052"
 		),
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/spm_demo_2/JioMeetWatchParty.xcframework.zip",
-			checksum: "75c5831e08862ac5c8e93145c5fa6f59e54251cf7d1206f6d8958db9e5aecfa6"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/spm_demo_3/JioMeetWatchParty.xcframework.zip",
+			checksum: "82559f4c0bdb0430e935d24a2959a898f1c988a81d0af84d5e4f3b1ed29ce5aa"
 		),
 		.binaryTarget(
             name: "Mediasoup",
