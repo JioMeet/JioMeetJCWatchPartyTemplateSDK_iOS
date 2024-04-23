@@ -22,7 +22,7 @@ let package = Package(
 		.package(
 			name: "Lottie",
 			url: "https://github.com/airbnb/lottie-spm.git",
-			.exact("4.3.3")
+			.upToNextMajor(from: "4.4.3")
 		),
 		.package(
 			name: "FLAnimatedImage",
@@ -33,8 +33,8 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_2_0_9/JioMeetWatchParty.xcframework.zip",
-			checksum: "6e3fecf6c98f7dd9ad3f00c8fc659c904ebf9179e9ff1e363a2582eb0c350f7b"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_2_0_10/JioMeetWatchParty.xcframework.zip",
+			checksum: "693200c7fc5d5cca23c86d94de3c0a18adfc0ad0f32afa991bc0ebcb42f808a3"
 		),
 		.target(
 			name: "JioMeetWatchPartyTarget",
