@@ -1,0 +1,4594 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JVWatchPartyView",
+        "printedName": "JVWatchPartyView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onRequestToGetJwtToken:onPressTermsAndConditionLink:onRequestToShareInvite:onRequiredToChangeMediaPlayerVolume:onRequestForUserLogin:onRequestToSendAnalyticsEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JVWatchPartyView",
+                "printedName": "JioMeetWatchParty.JVWatchPartyView",
+                "usr": "s:17JioMeetWatchParty07JVWatchD4ViewV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.String, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Float) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.WatchPartyAnalyticEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WatchPartyAnalyticEvent",
+                    "printedName": "JioMeetWatchParty.WatchPartyAnalyticEvent",
+                    "usr": "s:17JioMeetWatchParty0cD13AnalyticEventV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17JioMeetWatchParty07JVWatchD4ViewV22onRequestToGetJwtToken0G26PressTermsAndConditionLink0ghI11ShareInvite0g8RequiredI23ChangeMediaPlayerVolume0gH12ForUserLogin0ghI18SendAnalyticsEventACyyc_y10Foundation3URLVSgcySS_S2StcySfcyycyAA0cD13AnalyticEventVctcfc",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD4ViewV22onRequestToGetJwtToken0G26PressTermsAndConditionLink0ghI11ShareInvite0g8RequiredI23ChangeMediaPlayerVolume0gH12ForUserLogin0ghI18SendAnalyticsEventACyyc_y10Foundation3URLVSgcySS_S2StcySfcyycyAA0cD13AnalyticEventVctcfc",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17JioMeetWatchParty07JVWatchD4ViewV4bodyQrvp",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD4ViewV4bodyQrvp",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17JioMeetWatchParty07JVWatchD4ViewV4bodyQrvg",
+                "mangledName": "$s17JioMeetWatchParty07JVWatchD4ViewV4bodyQrvg",
+                "moduleName": "JioMeetWatchParty",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17JioMeetWatchParty07JVWatchD4ViewV",
+        "mangledName": "$s17JioMeetWatchParty07JVWatchD4ViewV",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "FLAnimatedImage",
+        "printedName": "FLAnimatedImage",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WatchPartyAnalyticEvent",
+        "printedName": "WatchPartyAnalyticEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventData",
+            "printedName": "eventData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17JioMeetWatchParty0cD13AnalyticEventV9eventDataSDySSypGvp",
+            "mangledName": "$s17JioMeetWatchParty0cD13AnalyticEventV9eventDataSDySSypGvp",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17JioMeetWatchParty0cD13AnalyticEventV9eventDataSDySSypGvg",
+                "mangledName": "$s17JioMeetWatchParty0cD13AnalyticEventV9eventDataSDySSypGvg",
+                "moduleName": "JioMeetWatchParty",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17JioMeetWatchParty0cD13AnalyticEventV9eventDataSDySSypGvs",
+                "mangledName": "$s17JioMeetWatchParty0cD13AnalyticEventV9eventDataSDySSypGvs",
+                "moduleName": "JioMeetWatchParty",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17JioMeetWatchParty0cD13AnalyticEventV9eventDataSDySSypGvM",
+                "mangledName": "$s17JioMeetWatchParty0cD13AnalyticEventV9eventDataSDySSypGvM",
+                "moduleName": "JioMeetWatchParty",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getDataBytes",
+            "printedName": "getDataBytes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty0cD13AnalyticEventV12getDataBytes10Foundation0H0VyF",
+            "mangledName": "$s17JioMeetWatchParty0cD13AnalyticEventV12getDataBytes10Foundation0H0VyF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17JioMeetWatchParty0cD13AnalyticEventV",
+        "mangledName": "$s17JioMeetWatchParty0cD13AnalyticEventV",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPlayer",
+        "printedName": "MediaPlayer",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JioMeetCoreSDK",
+        "printedName": "JioMeetCoreSDK",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "JioMeetCoreSDK",
+        "printedName": "JioMeetCoreSDK",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WatchPartySetting",
+        "printedName": "WatchPartySetting",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WatchPartySetting",
+                "printedName": "JioMeetWatchParty.WatchPartySetting",
+                "usr": "s:17JioMeetWatchParty0cD7SettingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17JioMeetWatchParty0cD7SettingV3key5valueACSS_yptcfc",
+            "mangledName": "$s17JioMeetWatchParty0cD7SettingV3key5valueACSS_yptcfc",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17JioMeetWatchParty0cD7SettingV",
+        "mangledName": "$s17JioMeetWatchParty0cD7SettingV",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JioMeetCoreSDK",
+        "printedName": "JioMeetCoreSDK",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPlayer",
+        "printedName": "MediaPlayer",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "JioMeetCoreSDK",
+        "printedName": "JioMeetCoreSDK",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JVWatchPartyNotificationName",
+        "printedName": "JVWatchPartyNotificationName",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "loginRequest",
+            "printedName": "loginRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVWatchPartyNotificationName.Type) -> JioMeetWatchParty.JVWatchPartyNotificationName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVWatchPartyNotificationName",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                    "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVWatchPartyNotificationName",
+                        "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                        "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO12loginRequestyA2CmF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO12loginRequestyA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Var",
+            "name": "requestForJwtToken",
+            "printedName": "requestForJwtToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVWatchPartyNotificationName.Type) -> JioMeetWatchParty.JVWatchPartyNotificationName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVWatchPartyNotificationName",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                    "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVWatchPartyNotificationName",
+                        "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                        "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO18requestForJwtTokenyA2CmF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO18requestForJwtTokenyA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Var",
+            "name": "jwtTokenToCreateParty",
+            "printedName": "jwtTokenToCreateParty",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVWatchPartyNotificationName.Type) -> JioMeetWatchParty.JVWatchPartyNotificationName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVWatchPartyNotificationName",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                    "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVWatchPartyNotificationName",
+                        "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                        "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO016jwtTokenToCreateD0yA2CmF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO016jwtTokenToCreateD0yA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Var",
+            "name": "requestShareInvite",
+            "printedName": "requestShareInvite",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVWatchPartyNotificationName.Type) -> JioMeetWatchParty.JVWatchPartyNotificationName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVWatchPartyNotificationName",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                    "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVWatchPartyNotificationName",
+                        "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                        "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO18requestShareInviteyA2CmF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO18requestShareInviteyA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Var",
+            "name": "changeMediaPlayerVolume",
+            "printedName": "changeMediaPlayerVolume",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVWatchPartyNotificationName.Type) -> JioMeetWatchParty.JVWatchPartyNotificationName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVWatchPartyNotificationName",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                    "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVWatchPartyNotificationName",
+                        "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                        "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO23changeMediaPlayerVolumeyA2CmF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO23changeMediaPlayerVolumeyA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Var",
+            "name": "guestUserLoginRequest",
+            "printedName": "guestUserLoginRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVWatchPartyNotificationName.Type) -> JioMeetWatchParty.JVWatchPartyNotificationName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVWatchPartyNotificationName",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                    "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVWatchPartyNotificationName",
+                        "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                        "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO21guestUserLoginRequestyA2CmF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO21guestUserLoginRequestyA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Var",
+            "name": "analyticsEvent",
+            "printedName": "analyticsEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVWatchPartyNotificationName.Type) -> JioMeetWatchParty.JVWatchPartyNotificationName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVWatchPartyNotificationName",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                    "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVWatchPartyNotificationName",
+                        "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                        "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO14analyticsEventyA2CmF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO14analyticsEventyA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO8rawValueSSvp",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO8rawValueSSvp",
+            "moduleName": "JioMeetWatchParty",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO8rawValueSSvg",
+                "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO8rawValueSSvg",
+                "moduleName": "JioMeetWatchParty",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVWatchPartyNotificationName",
+                    "printedName": "JioMeetWatchParty.JVWatchPartyNotificationName",
+                    "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO8rawValueACSgSS_tcfc",
+            "moduleName": "JioMeetWatchParty",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17JioMeetWatchParty07JVWatchD16NotificationNameO",
+        "mangledName": "$s17JioMeetWatchParty07JVWatchD16NotificationNameO",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JVPartyUserType",
+        "printedName": "JVPartyUserType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "guest",
+            "printedName": "guest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVPartyUserType.Type) -> JioMeetWatchParty.JVPartyUserType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVPartyUserType",
+                    "printedName": "JioMeetWatchParty.JVPartyUserType",
+                    "usr": "s:17JioMeetWatchParty15JVPartyUserTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVPartyUserType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVPartyUserType",
+                        "printedName": "JioMeetWatchParty.JVPartyUserType",
+                        "usr": "s:17JioMeetWatchParty15JVPartyUserTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty15JVPartyUserTypeO5guestyA2CmF",
+            "mangledName": "$s17JioMeetWatchParty15JVPartyUserTypeO5guestyA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Var",
+            "name": "loggedIn",
+            "printedName": "loggedIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVPartyUserType.Type) -> (Swift.String) -> JioMeetWatchParty.JVPartyUserType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> JioMeetWatchParty.JVPartyUserType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVPartyUserType",
+                        "printedName": "JioMeetWatchParty.JVPartyUserType",
+                        "usr": "s:17JioMeetWatchParty15JVPartyUserTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(userName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVPartyUserType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVPartyUserType",
+                        "printedName": "JioMeetWatchParty.JVPartyUserType",
+                        "usr": "s:17JioMeetWatchParty15JVPartyUserTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty15JVPartyUserTypeO8loggedInyACSS_tcACmF",
+            "mangledName": "$s17JioMeetWatchParty15JVPartyUserTypeO8loggedInyACSS_tcACmF",
+            "moduleName": "JioMeetWatchParty"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17JioMeetWatchParty15JVPartyUserTypeO",
+        "mangledName": "$s17JioMeetWatchParty15JVPartyUserTypeO",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JVMediaEngineType",
+        "printedName": "JVMediaEngineType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mediaEngine1",
+            "printedName": "mediaEngine1",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVMediaEngineType.Type) -> JioMeetWatchParty.JVMediaEngineType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVMediaEngineType",
+                    "printedName": "JioMeetWatchParty.JVMediaEngineType",
+                    "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVMediaEngineType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVMediaEngineType",
+                        "printedName": "JioMeetWatchParty.JVMediaEngineType",
+                        "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO12mediaEngine1yA2CmF",
+            "mangledName": "$s17JioMeetWatchParty17JVMediaEngineTypeO12mediaEngine1yA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Var",
+            "name": "mediaEngine2",
+            "printedName": "mediaEngine2",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JioMeetWatchParty.JVMediaEngineType.Type) -> JioMeetWatchParty.JVMediaEngineType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVMediaEngineType",
+                    "printedName": "JioMeetWatchParty.JVMediaEngineType",
+                    "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JioMeetWatchParty.JVMediaEngineType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JVMediaEngineType",
+                        "printedName": "JioMeetWatchParty.JVMediaEngineType",
+                        "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO12mediaEngine2yA2CmF",
+            "mangledName": "$s17JioMeetWatchParty17JVMediaEngineTypeO12mediaEngine2yA2CmF",
+            "moduleName": "JioMeetWatchParty"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JioMeetWatchParty.JVMediaEngineType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JVMediaEngineType",
+                    "printedName": "JioMeetWatchParty.JVMediaEngineType",
+                    "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17JioMeetWatchParty17JVMediaEngineTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "JioMeetWatchParty",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO8rawValueSSvp",
+            "mangledName": "$s17JioMeetWatchParty17JVMediaEngineTypeO8rawValueSSvp",
+            "moduleName": "JioMeetWatchParty",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO8rawValueSSvg",
+                "mangledName": "$s17JioMeetWatchParty17JVMediaEngineTypeO8rawValueSSvg",
+                "moduleName": "JioMeetWatchParty",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO",
+        "mangledName": "$s17JioMeetWatchParty17JVMediaEngineTypeO",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JVWatchPartyViewModel",
+        "printedName": "JVWatchPartyViewModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JVWatchPartyViewModel",
+                "printedName": "JioMeetWatchParty.JVWatchPartyViewModel",
+                "usr": "c:@M@JioMeetWatchParty@objc(cs)JVWatchPartyViewModel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@JioMeetWatchParty@objc(cs)JVWatchPartyViewModel(im)init",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelCACycfc",
+            "moduleName": "JioMeetWatchParty",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sendReaction",
+            "printedName": "sendReaction(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC12sendReaction4typeySi_tF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC12sendReaction4typeySi_tF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "switchCamera",
+            "printedName": "switchCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC12switchCamerayyF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC12switchCamerayyF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentPartyID",
+            "printedName": "getCurrentPartyID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC010getCurrentD2IDSSyF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC010getCurrentD2IDSSyF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forceLeaveCurrentWatchParty",
+            "printedName": "forceLeaveCurrentWatchParty(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC017forceLeaveCurrentcD010completionyySbcSg_tF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC017forceLeaveCurrentcD010completionyySbcSg_tF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isUserAlreadyInParty",
+            "printedName": "isUserAlreadyInParty()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC015isUserAlreadyInD0SbyF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC015isUserAlreadyInD0SbyF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserType",
+            "printedName": "setUserType(isGuestUser:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC11setUserType07isGuestI0ySb_tF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC11setUserType07isGuestI0ySb_tF",
+            "moduleName": "JioMeetWatchParty",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserType",
+            "printedName": "setUserType(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JVPartyUserType",
+                "printedName": "JioMeetWatchParty.JVPartyUserType",
+                "usr": "s:17JioMeetWatchParty15JVPartyUserTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC11setUserType4typeyAA07JVPartyiJ0O_tF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC11setUserType4typeyAA07JVPartyiJ0O_tF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setcustomParameters",
+            "printedName": "setcustomParameters(params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC19setcustomParameters6paramsySDySSypG_tF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC19setcustomParameters6paramsySDySSypG_tF",
+            "moduleName": "JioMeetWatchParty",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMeetingData",
+            "printedName": "setMeetingData(meetingID:meetingPIN:ownerName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC14setMeetingData9meetingID0K3PIN9ownerNameySS_S2StF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC14setMeetingData9meetingID0K3PIN9ownerNameySS_S2StF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMediaEngine",
+            "printedName": "setMediaEngine(engine:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JVMediaEngineType",
+                "printedName": "JioMeetWatchParty.JVMediaEngineType",
+                "usr": "s:17JioMeetWatchParty17JVMediaEngineTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC14setMediaEngine6engineyAA07JVMediaJ4TypeO_tF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC14setMediaEngine6engineyAA07JVMediaJ4TypeO_tF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setWatchPartySetting",
+            "printedName": "setWatchPartySetting(setting:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WatchPartySetting",
+                "printedName": "JioMeetWatchParty.WatchPartySetting",
+                "usr": "s:17JioMeetWatchParty0cD7SettingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC03setcD7Setting7settingyAA0cdI0V_tF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC03setcD7Setting7settingyAA0cdI0V_tF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(didLocalUserFailedToJoinMeeting:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeetingJoinError",
+                "printedName": "JioMeetCoreSDK.JMMeetingJoinError",
+                "usr": "s:14JioMeetCoreSDK18JMMeetingJoinErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient31didLocalUserFailedToJoinMeetingy0aB7CoreSDK09JMMeetingO5ErrorO_tF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient31didLocalUserFailedToJoinMeetingy0aB7CoreSDK09JMMeetingO5ErrorO_tF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didLocalUserJoinedMeeting:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeetingUser",
+                "printedName": "JioMeetCoreSDK.JMMeetingUser",
+                "usr": "s:14JioMeetCoreSDK13JMMeetingUserC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_25didLocalUserJoinedMeetingy0aB7CoreSDK9JMMeetingV_AF0qL0CtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_25didLocalUserJoinedMeetingy0aB7CoreSDK9JMMeetingV_AF0qL0CtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didLocalUserMicStatusUpdated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_28didLocalUserMicStatusUpdatedy0aB7CoreSDK9JMMeetingV_SbtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_28didLocalUserMicStatusUpdatedy0aB7CoreSDK9JMMeetingV_SbtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didLocalUserVideoStatusUpdated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_30didLocalUserVideoStatusUpdatedy0aB7CoreSDK9JMMeetingV_SbtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_30didLocalUserVideoStatusUpdatedy0aB7CoreSDK9JMMeetingV_SbtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didLocalUserLeftMeeting:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMUserLeftReason",
+                "printedName": "JioMeetCoreSDK.JMUserLeftReason",
+                "usr": "s:14JioMeetCoreSDK16JMUserLeftReasonO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_23didLocalUserLeftMeetingy0aB7CoreSDK9JMMeetingV_AF06JMUserM6ReasonOtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_23didLocalUserLeftMeetingy0aB7CoreSDK9JMMeetingV_AF06JMUserM6ReasonOtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didRemoteUserJoinedMeeting:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeetingUser",
+                "printedName": "JioMeetCoreSDK.JMMeetingUser",
+                "usr": "s:14JioMeetCoreSDK13JMMeetingUserC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_26didRemoteUserJoinedMeetingy0aB7CoreSDK9JMMeetingV_AF0qL0CtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_26didRemoteUserJoinedMeetingy0aB7CoreSDK9JMMeetingV_AF0qL0CtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didRemoteUserMicStatusUpdated:isMuted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeetingUser",
+                "printedName": "JioMeetCoreSDK.JMMeetingUser",
+                "usr": "s:14JioMeetCoreSDK13JMMeetingUserC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_29didRemoteUserMicStatusUpdated7isMutedy0aB7CoreSDK9JMMeetingV_AG0tL0CSbtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_29didRemoteUserMicStatusUpdated7isMutedy0aB7CoreSDK9JMMeetingV_AG0tL0CSbtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didRemoteUserVideoStatusUpdated:isMuted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeetingUser",
+                "printedName": "JioMeetCoreSDK.JMMeetingUser",
+                "usr": "s:14JioMeetCoreSDK13JMMeetingUserC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_31didRemoteUserVideoStatusUpdated7isMutedy0aB7CoreSDK9JMMeetingV_AG0tL0CSbtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_31didRemoteUserVideoStatusUpdated7isMutedy0aB7CoreSDK9JMMeetingV_AG0tL0CSbtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didRemoteUserLeftMeeting:reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeetingUser",
+                "printedName": "JioMeetCoreSDK.JMMeetingUser",
+                "usr": "s:14JioMeetCoreSDK13JMMeetingUserC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMUserLeftReason",
+                "printedName": "JioMeetCoreSDK.JMUserLeftReason",
+                "usr": "s:14JioMeetCoreSDK16JMUserLeftReasonO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_24didRemoteUserLeftMeeting6reasony0aB7CoreSDK9JMMeetingV_AG0rL0CAG06JMUserM6ReasonOtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_24didRemoteUserLeftMeeting6reasony0aB7CoreSDK9JMMeetingV_AG0rL0CAG06JMUserM6ReasonOtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didLoudestSpeakerUpdated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JioMeetCoreSDK.JMMeetingUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JMMeetingUser",
+                    "printedName": "JioMeetCoreSDK.JMMeetingUser",
+                    "usr": "s:14JioMeetCoreSDK13JMMeetingUserC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_24didLoudestSpeakerUpdatedy0aB7CoreSDK9JMMeetingV_AF0P4UserCSgtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_24didLoudestSpeakerUpdatedy0aB7CoreSDK9JMMeetingV_AF0P4UserCSgtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didLocalSpeakerVolumeChanges:localUserSpeaking:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_28didLocalSpeakerVolumeChanges17localUserSpeakingy0aB7CoreSDK9JMMeetingV_SiSbtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_28didLocalSpeakerVolumeChanges17localUserSpeakingy0aB7CoreSDK9JMMeetingV_SiSbtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didMeetingDataRefreshed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeetingDataRefreshReason",
+                "printedName": "JioMeetCoreSDK.JMMeetingDataRefreshReason",
+                "usr": "s:14JioMeetCoreSDK26JMMeetingDataRefreshReasonO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_23didMeetingDataRefreshedy0aB7CoreSDK9JMMeetingV_AF0pL13RefreshReasonOtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_23didMeetingDataRefreshedy0aB7CoreSDK9JMMeetingV_AF0pL13RefreshReasonOtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didNetworkConnectedStateUpdated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_31didNetworkConnectedStateUpdatedy0aB7CoreSDK9JMMeetingV_SbtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_31didNetworkConnectedStateUpdatedy0aB7CoreSDK9JMMeetingV_SbtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmClient",
+            "printedName": "jmClient(_:didRecieveReaction:reactionsType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeeting",
+                "printedName": "JioMeetCoreSDK.JMMeeting",
+                "usr": "s:14JioMeetCoreSDK9JMMeetingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMMeetingUser",
+                "printedName": "JioMeetCoreSDK.JMMeetingUser",
+                "usr": "s:14JioMeetCoreSDK13JMMeetingUserC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_18didRecieveReaction13reactionsTypey0aB7CoreSDK9JMMeetingV_AG0Q4UserCSStF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC8jmClient_18didRecieveReaction13reactionsTypey0aB7CoreSDK9JMMeetingV_AG0Q4UserCSStF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jmChatClient",
+            "printedName": "jmChatClient(_:didRecieveNewChatMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMChatManager",
+                "printedName": "JioMeetCoreSDK.JMChatManager",
+                "usr": "c:@M@JioMeetCoreSDK@objc(cs)JMChatManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMChatMessage",
+                "printedName": "JioMeetCoreSDK.JMChatMessage",
+                "usr": "s:14JioMeetCoreSDK13JMChatMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17JioMeetWatchParty07JVWatchD9ViewModelC12jmChatClient_013didRecieveNewI7Messagey0aB7CoreSDK13JMChatManagerC_AF0qN0VtF",
+            "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC12jmChatClient_013didRecieveNewI7Messagey0aB7CoreSDK13JMChatManagerC_AF0qN0VtF",
+            "moduleName": "JioMeetWatchParty",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@JioMeetWatchParty@objc(cs)JVWatchPartyViewModel",
+        "mangledName": "$s17JioMeetWatchParty07JVWatchD9ViewModelC",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "JMClientDelegate",
+            "printedName": "JMClientDelegate",
+            "usr": "s:14JioMeetCoreSDK16JMClientDelegateP",
+            "mangledName": "$s14JioMeetCoreSDK16JMClientDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "JMChatClientDelegate",
+            "printedName": "JMChatClientDelegate",
+            "usr": "s:14JioMeetCoreSDK20JMChatClientDelegateP",
+            "mangledName": "$s14JioMeetCoreSDK20JMChatClientDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "JioMeetCoreSDK",
+        "printedName": "JioMeetCoreSDK",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "JioMeetWatchParty"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GifChatMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 3,
+      "value": "240"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GifChatMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 3,
+      "value": "240"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 286,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1408,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1447,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1483,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1732,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1779,
+      "length": 3,
+      "value": "217"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1783,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1795,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1804,
+      "length": 3,
+      "value": "141"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1808,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1820,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GIFAnimatingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3726,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/WatchPartyAnalyticEvent.swift",
+      "kind": "Dictionary",
+      "offset": 206,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/ConfigLoadingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 183,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/ConfigLoadingView.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 58,
+      "value": "\"https:\/\/storage.googleapis.com\/cpass-sdk\/partyLoader.png\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/KeyBoardManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1200,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/KeyBoardManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2587,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIFSearchResult.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 9,
+      "value": "\"results\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIFSearchResult.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 6,
+      "value": "\"next\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIFSearchResult.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 9,
+      "value": "\"results\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIFSearchResult.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 6,
+      "value": "\"next\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GifSearchResultView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 347,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GifSearchResultView.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GifSearchResultView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 410,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/WatchPartyChatMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/WatchPartyChatMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/WatchPartyChatMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 333,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/WatchPartyChatMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/WatchPartyChatMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/WatchPartyChatMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 447,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/WatchPartyChatMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 478,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/WatchPartyChatMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 511,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Fonts.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 15,
+      "value": "\"JioType-Black\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Fonts.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 14,
+      "value": "\"JioType-Bold\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Fonts.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 16,
+      "value": "\"JioType-Medium\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Fonts.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 16,
+      "value": "\"JioType-Medium\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Fonts.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 9,
+      "value": "\"JioType\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/NameInputActiveView.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/NameInputActiveView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/LottieView.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/CommonViewsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/CommonViewsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/CommonViewsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1094,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/CommonViewsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1499,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/CommonViewsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1529,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/CommonViewsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2380,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/CommonViewsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3747,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/CommonViewsBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3810,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 15,
+      "value": "\"media_formats\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 9,
+      "value": "\"created\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 15,
+      "value": "\"media_formats\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 9,
+      "value": "\"created\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 9,
+      "value": "\"nanogif\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 9,
+      "value": "\"tinygif\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 9,
+      "value": "\"nanogif\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 9,
+      "value": "\"tinygif\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 6,
+      "value": "\"size\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 6,
+      "value": "\"dims\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 6,
+      "value": "\"size\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/TenorGIF.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 6,
+      "value": "\"dims\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 177,
+      "length": 5,
+      "value": "0.851"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 200,
+      "length": 5,
+      "value": "0.553"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 262,
+      "length": 5,
+      "value": "0.051"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 276,
+      "length": 5,
+      "value": "0.055"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 289,
+      "length": 5,
+      "value": "0.063"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 349,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 368,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 380,
+      "length": 4,
+      "value": "0.78"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 433,
+      "length": 5,
+      "value": "0.071"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 447,
+      "length": 5,
+      "value": "0.039"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 460,
+      "length": 5,
+      "value": "0.212"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 514,
+      "length": 5,
+      "value": "0.082"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 528,
+      "length": 5,
+      "value": "0.075"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 541,
+      "length": 4,
+      "value": "0.11"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 597,
+      "length": 5,
+      "value": "0.129"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 611,
+      "length": 5,
+      "value": "0.118"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 624,
+      "length": 5,
+      "value": "0.173"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 682,
+      "length": 5,
+      "value": "0.631"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 696,
+      "length": 5,
+      "value": "0.631"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 709,
+      "length": 5,
+      "value": "0.631"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 752,
+      "length": 5,
+      "value": "0.757"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 766,
+      "length": 5,
+      "value": "0.008"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 779,
+      "length": 4,
+      "value": "0.22"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 794,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 884,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyLiveView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/GifSelectorView.swift",
+      "kind": "Array",
+      "offset": 340,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 387,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 435,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 14,
+      "value": "\"jv_home_dots\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 515,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 590,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 688,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 837,
+      "length": 4,
+      "value": "0.09"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 850,
+      "length": 5,
+      "value": "0.094"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 863,
+      "length": 5,
+      "value": "0.102"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 877,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 906,
+      "length": 5,
+      "value": "0.051"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 920,
+      "length": 5,
+      "value": "0.055"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 933,
+      "length": 5,
+      "value": "0.063"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "Array",
+      "offset": 982,
+      "length": 9,
+      "value": "[0.04, 1]"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1024,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1033,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1068,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1077,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1160,
+      "length": 5,
+      "value": "-0.17"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1170,
+      "length": 4,
+      "value": "0.79"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1179,
+      "length": 5,
+      "value": "-2.64"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1189,
+      "length": 5,
+      "value": "-0.02"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1200,
+      "length": 4,
+      "value": "1.95"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PolkaDotsBackgroundView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1210,
+      "length": 4,
+      "value": "0.04"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/CustomSliderView.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 11,
+      "value": "\"JioMeetWatchParty.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 165,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 8,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 7,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 165,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 8,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 7,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 165,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 8,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 7,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 995,
+      "length": 3,
+      "value": "181"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1000,
+      "length": 3,
+      "value": "181"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1005,
+      "length": 3,
+      "value": "181"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1058,
+      "length": 3,
+      "value": "181"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1063,
+      "length": 3,
+      "value": "181"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1068,
+      "length": 3,
+      "value": "181"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1118,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1122,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1126,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1176,
+      "length": 5,
+      "value": "0.263"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1190,
+      "length": 4,
+      "value": "0.38"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/PartyTabBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1202,
+      "length": 5,
+      "value": "0.933"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/FirstResponderTextField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 710,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/FirstResponderTextField.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 11,
+      "value": "\"JioMeetWatchParty.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 879,
+      "length": 32,
+      "value": "\"jv_wp_party_user_login_request\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 939,
+      "length": 31,
+      "value": "\"jv_wp_party_request_jwt_token\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 30,
+      "value": "\"jv_wp_party_create_jwt_token\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 34,
+      "value": "\"jv_wp_party_share_invite_request\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1126,
+      "length": 40,
+      "value": "\"jv_wp_party_change_media_player_volume\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 35,
+      "value": "\"jv_wp_party_request_to_user_login\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1256,
+      "length": 29,
+      "value": "\"jv_wp_party_analytics_event\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 879,
+      "length": 32,
+      "value": "\"jv_wp_party_user_login_request\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 939,
+      "length": 31,
+      "value": "\"jv_wp_party_request_jwt_token\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 30,
+      "value": "\"jv_wp_party_create_jwt_token\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 34,
+      "value": "\"jv_wp_party_share_invite_request\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1126,
+      "length": 40,
+      "value": "\"jv_wp_party_change_media_player_volume\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 35,
+      "value": "\"jv_wp_party_request_to_user_login\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1256,
+      "length": 29,
+      "value": "\"jv_wp_party_analytics_event\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1428,
+      "length": 16,
+      "value": "\"MEDIA_ENGINE_1\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 16,
+      "value": "\"MEDIA_ENGINE_2\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1428,
+      "length": 16,
+      "value": "\"MEDIA_ENGINE_1\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 16,
+      "value": "\"MEDIA_ENGINE_2\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1819,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1865,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1909,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1955,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2146,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2202,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2250,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2381,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2472,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2516,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2557,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2602,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2640,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2683,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2725,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3149,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3182,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3220,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3262,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3349,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3388,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3415,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3434,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3480,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3576,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3603,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3647,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "Dictionary",
+      "offset": 3704,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3861,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3896,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/JVWatchPartyViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3926,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Documents\/Development\/Cpass_Development\/JioMeetNativeSDKiOS\/SPM_Builder\/WatchParty\/JioMeetWatchParty\/JioMeetWatchParty\/MultiUsersViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 461,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 6,
+      "value": "\"edit\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 986,
+      "length": 14,
+      "value": "\"jv_home_back\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1132,
+      "length": 14,
+      "value": "\"jv_home_dots\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1287,
+      "length": 19,
+      "value": "\"jv_tool_tip_arrow\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1455,
+      "length": 23,
+      "value": "\"jv_wp_add_participant\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 23,
+      "value": "\"jv_wp_camera_flip_off\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1795,
+      "length": 22,
+      "value": "\"jv_wp_camera_flip_on\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1954,
+      "length": 17,
+      "value": "\"jv_wp_chat_icon\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2110,
+      "length": 18,
+      "value": "\"jv_wp_cross_icon\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2263,
+      "length": 16,
+      "value": "\"jv_wp_gif_icon\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2416,
+      "length": 17,
+      "value": "\"jv_wp_menu_icon\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2566,
+      "length": 15,
+      "value": "\"jv_wp_mic_off\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2712,
+      "length": 14,
+      "value": "\"jv_wp_mic_on\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2869,
+      "length": 20,
+      "value": "\"jv_wp_party_loader\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3034,
+      "length": 21,
+      "value": "\"jv_wp_reaction_icon\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3185,
+      "length": 13,
+      "value": "\"jv_wp_share\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3335,
+      "length": 17,
+      "value": "\"jv_wp_video_off\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3487,
+      "length": 16,
+      "value": "\"jv_wp_video_on\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3621,
+      "length": 6,
+      "value": "\"send\""
+    },
+    {
+      "filePath": "\/Users\/bigstep\/Library\/Developer\/Xcode\/DerivedData\/JioMeetWatchParty-dtrnzjxkygmqrsaktgqcmxukklur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JioMeetWatchParty\/IntermediateBuildFilesPath\/JioMeetWatchParty.build\/Release-iphoneos\/JioMeetWatchParty.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3747,
+      "length": 7,
+      "value": "\"users\""
+    }
+  ]
+}

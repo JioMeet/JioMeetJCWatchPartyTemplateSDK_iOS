@@ -1,0 +1,11 @@
+framework module JioMeetWatchParty {
+  umbrella header "JioMeetWatchParty.h"
+  export *
+
+  module * { export * }
+}
+
+module JioMeetWatchParty.Swift {
+  header "JioMeetWatchParty-Swift.h"
+  requires objc
+}
