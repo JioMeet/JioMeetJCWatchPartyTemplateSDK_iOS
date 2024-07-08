@@ -1,0 +1,101 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name JioMeetWatchParty
+import AVFoundation
+import Combine
+import CoreGraphics
+import DeveloperToolsSupport
+import Foundation
+import JioMeetCoreSDK
+@_exported import JioMeetWatchParty
+import MediaPlayer
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_Concurrency.MainActor(unsafe) public struct JVWatchPartyView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init(onRequestToGetJwtToken: @escaping () -> Swift.Void, onPressTermsAndConditionLink: @escaping (Foundation.URL?) -> Swift.Void, onRequestToShareInvite: @escaping (Swift.String, Swift.String, Swift.String) -> Swift.Void, onRequiredToChangeMediaPlayerVolume: @escaping (Swift.Float) -> Swift.Void, onRequestForUserLogin: @escaping () -> Swift.Void, onRequestToSendAnalyticsEvent: @escaping (JioMeetWatchParty.WatchPartyAnalyticEvent) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17JioMeetWatchParty07JVWatchD4ViewV4bodyQrvp", 0) __
+}
+public struct WatchPartyAnalyticEvent {
+  public var eventData: [Swift.String : Any]
+  public func getDataBytes() -> Foundation.Data
+}
+public struct WatchPartySetting {
+  public init(key: Swift.String, value: Any)
+}
+public enum JVWatchPartyNotificationName : Swift.String {
+  case loginRequest
+  case requestForJwtToken
+  case jwtTokenToCreateParty
+  case requestShareInvite
+  case changeMediaPlayerVolume
+  case guestUserLoginRequest
+  case analyticsEvent
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum JVPartyUserType {
+  case guest
+  case loggedIn(userName: Swift.String)
+}
+public enum JVMediaEngineType : Swift.String {
+  case mediaEngine1
+  case mediaEngine2
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class JVWatchPartyViewModel : ObjectiveC.NSObject, Foundation.ObservableObject {
+  @objc override dynamic public init()
+  public func sendReaction(type: Swift.Int)
+  public func switchCamera()
+  public func getCurrentPartyID() -> Swift.String
+  public func forceLeaveCurrentWatchParty(completion: ((_ isPartyLeft: Swift.Bool) -> Swift.Void)? = nil)
+  public func isUserAlreadyInParty() -> Swift.Bool
+  @available(*, deprecated, message: "Please use setUserType with enum values instead.")
+  public func setUserType(isGuestUser: Swift.Bool)
+  public func setUserType(type: JioMeetWatchParty.JVPartyUserType)
+  @available(*, deprecated, message: "Please use setWatchPartySetting method with key-value setting struct.")
+  public func setcustomParameters(params: [Swift.String : Any])
+  public func setMeetingData(meetingID: Swift.String, meetingPIN: Swift.String, ownerName: Swift.String)
+  public func setMediaEngine(engine: JioMeetWatchParty.JVMediaEngineType)
+  public func setWatchPartySetting(setting: JioMeetWatchParty.WatchPartySetting)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension JioMeetWatchParty.JVWatchPartyViewModel : JioMeetCoreSDK.JMClientDelegate {
+  public func jmClient(didLocalUserFailedToJoinMeeting error: JioMeetCoreSDK.JMMeetingJoinError)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didLocalUserJoinedMeeting user: JioMeetCoreSDK.JMMeetingUser)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didLocalUserMicStatusUpdated isMuted: Swift.Bool)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didLocalUserVideoStatusUpdated isMuted: Swift.Bool)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didLocalUserLeftMeeting reason: JioMeetCoreSDK.JMUserLeftReason)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didRemoteUserJoinedMeeting user: JioMeetCoreSDK.JMMeetingUser)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didRemoteUserMicStatusUpdated user: JioMeetCoreSDK.JMMeetingUser, isMuted: Swift.Bool)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didRemoteUserVideoStatusUpdated user: JioMeetCoreSDK.JMMeetingUser, isMuted: Swift.Bool)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didRemoteUserLeftMeeting user: JioMeetCoreSDK.JMMeetingUser, reason: JioMeetCoreSDK.JMUserLeftReason)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didLoudestSpeakerUpdated user: JioMeetCoreSDK.JMMeetingUser?)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didLocalSpeakerVolumeChanges newLevel: Swift.Int, localUserSpeaking: Swift.Bool)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didMeetingDataRefreshed reason: JioMeetCoreSDK.JMMeetingDataRefreshReason)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didNetworkConnectedStateUpdated isConnected: Swift.Bool)
+  public func jmClient(_ meeting: JioMeetCoreSDK.JMMeeting, didRecieveReaction user: JioMeetCoreSDK.JMMeetingUser, reactionsType: Swift.String)
+}
+extension JioMeetWatchParty.JVWatchPartyViewModel : JioMeetCoreSDK.JMChatClientDelegate {
+  public func jmChatClient(_ client: JioMeetCoreSDK.JMChatManager, didRecieveNewChatMessage message: JioMeetCoreSDK.JMChatMessage)
+}
+extension JioMeetWatchParty.JVWatchPartyNotificationName : Swift.Equatable {}
+extension JioMeetWatchParty.JVWatchPartyNotificationName : Swift.Hashable {}
+extension JioMeetWatchParty.JVWatchPartyNotificationName : Swift.RawRepresentable {}
+extension JioMeetWatchParty.JVMediaEngineType : Swift.Equatable {}
+extension JioMeetWatchParty.JVMediaEngineType : Swift.Hashable {}
+extension JioMeetWatchParty.JVMediaEngineType : Swift.RawRepresentable {}
