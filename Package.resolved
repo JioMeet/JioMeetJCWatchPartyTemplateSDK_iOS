@@ -1,0 +1,97 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FLAnimatedImage",
+        "repositoryURL": "https://github.com/Flipboard/FLAnimatedImage.git",
+        "state": {
+          "branch": null,
+          "revision": "d4f07b6f164d53c1212c3e54d6460738b1981e9f",
+          "version": "1.0.17"
+        }
+      },
+      {
+        "package": "JioMeetRtcEngine_iOS",
+        "repositoryURL": "https://github.com/JioMeet/JioMeet-rtc-engine-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "352d96722986c14d7bdc0df808db621279d0acbd",
+          "version": "3.7.2"
+        }
+      },
+      {
+        "package": "JioMeetCoreSDK",
+        "repositoryURL": "https://github.com/JioMeet/JioMeetCoreSDK_iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "5f0d5e892e9608f1b8d635eae371c043458ca1aa",
+          "version": "3.0.0-alpha.6"
+        }
+      },
+      {
+        "package": "JioMeetMediaStackSDK",
+        "repositoryURL": "https://github.com/JioMeet/JMMediaStackSDK_iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "c2e2e9cf779b9a67f1a893cb1e6494a7297a6d43",
+          "version": "1.0.5"
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-spm.git",
+        "state": {
+          "branch": null,
+          "revision": "3e7eb8281ff9ac67e64a3a58a80c0aa9fa388b04",
+          "version": "4.3.3"
+        }
+      },
+      {
+        "package": "MMWormhole",
+        "repositoryURL": "https://github.com/JioMeet/MMWormhole.git",
+        "state": {
+          "branch": null,
+          "revision": "18fc19b5a125b501c50f4cf3a1423cba80d4afac",
+          "version": "2.1.0"
+        }
+      },
+      {
+        "package": "SocketIO",
+        "repositoryURL": "https://github.com/socketio/socket.io-client-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "175da8b5156f6b132436f0676cc84c2f6a766b6e",
+          "version": "16.1.0"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream",
+        "state": {
+          "branch": null,
+          "revision": "ac6c0fc9da221873e01bd1a0d4818498a71eef33",
+          "version": "4.0.6"
+        }
+      },
+      {
+        "package": "SwiftyJSON",
+        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON.git",
+        "state": {
+          "branch": null,
+          "revision": "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
+          "version": "5.0.2"
+        }
+      },
+      {
+        "package": "VoiceActivityDetector",
+        "repositoryURL": "https://github.com/JioMeet/WebRtcVad.git",
+        "state": {
+          "branch": null,
+          "revision": "5cf2a242a4b65ba42cd5b856a15817f664f4bf26",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
