@@ -33,8 +33,8 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "JioMeetWatchParty",
-			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_4_0_1/JioMeetWatchParty.xcframework.zip",
-			checksum: "385d1427ebc3b49d87e207becd9715733d9f539d5069ef64da0d92e74d5d7bb0"
+			url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/internal/jv_watch_party/v_4_0_2/JioMeetWatchParty.xcframework.zip",
+			checksum: "75c7419b1710a42de3bcbfa5bfb7c18ab44ee5c5bc4eeafe023b376e8fe87ad2"
 		),
 		.target(
 			name: "JioMeetWatchPartyTarget",
